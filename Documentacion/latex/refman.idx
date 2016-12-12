@@ -1,0 +1,208 @@
+\indexentry{Ui@{Ui}|hyperpage}{2}
+\indexentry{Algoritmo@{Algoritmo}|hyperpage}{2}
+\indexentry{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}|hyperpage}{4}
+\indexentry{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}|hyperpage}{4}
+\indexentry{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}|hyperpage}{4}
+\indexentry{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}|hyperpage}{4}
+\indexentry{Algoritmo@{Algoritmo}!$\sim $\discretionary {-}{}{}Algoritmo@{$\sim $\discretionary {-}{}{}Algoritmo}|hyperpage}{5}
+\indexentry{$\sim $\discretionary {-}{}{}Algoritmo@{$\sim $\discretionary {-}{}{}Algoritmo}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!algoritmo@{algoritmo}|hyperpage}{5}
+\indexentry{algoritmo@{algoritmo}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!clustering\discretionary {-}{}{}Newman@{clustering\discretionary {-}{}{}Newman}|hyperpage}{5}
+\indexentry{clustering\discretionary {-}{}{}Newman@{clustering\discretionary {-}{}{}Newman}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia@{construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia}|hyperpage}{5}
+\indexentry{construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia@{construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios@{get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios}|hyperpage}{5}
+\indexentry{get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios@{get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final@{get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final}|hyperpage}{5}
+\indexentry{get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final@{get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!get\discretionary {-}{}{}Modularidad@{get\discretionary {-}{}{}Modularidad}|hyperpage}{5}
+\indexentry{get\discretionary {-}{}{}Modularidad@{get\discretionary {-}{}{}Modularidad}!Algoritmo@{Algoritmo}|hyperpage}{5}
+\indexentry{Algoritmo@{Algoritmo}!inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial@{inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial}|hyperpage}{6}
+\indexentry{inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial@{inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X@{inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X}|hyperpage}{6}
+\indexentry{inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X@{inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!inicializar\discretionary {-}{}{}Poblacion@{inicializar\discretionary {-}{}{}Poblacion}|hyperpage}{6}
+\indexentry{inicializar\discretionary {-}{}{}Poblacion@{inicializar\discretionary {-}{}{}Poblacion}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!reproducir@{reproducir}|hyperpage}{6}
+\indexentry{reproducir@{reproducir}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!seleccionar@{seleccionar}|hyperpage}{6}
+\indexentry{seleccionar@{seleccionar}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!aristas@{aristas}|hyperpage}{6}
+\indexentry{aristas@{aristas}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!cant\discretionary {-}{}{}Cambios@{cant\discretionary {-}{}{}Cambios}|hyperpage}{6}
+\indexentry{cant\discretionary {-}{}{}Cambios@{cant\discretionary {-}{}{}Cambios}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial@{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}|hyperpage}{6}
+\indexentry{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial@{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!configuracion\discretionary {-}{}{}Final@{configuracion\discretionary {-}{}{}Final}|hyperpage}{6}
+\indexentry{configuracion\discretionary {-}{}{}Final@{configuracion\discretionary {-}{}{}Final}!Algoritmo@{Algoritmo}|hyperpage}{6}
+\indexentry{Algoritmo@{Algoritmo}!configuracion\discretionary {-}{}{}Inicial@{configuracion\discretionary {-}{}{}Inicial}|hyperpage}{7}
+\indexentry{configuracion\discretionary {-}{}{}Inicial@{configuracion\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!generaciones@{generaciones}|hyperpage}{7}
+\indexentry{generaciones@{generaciones}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!grafo@{grafo}|hyperpage}{7}
+\indexentry{grafo@{grafo}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!individuos@{individuos}|hyperpage}{7}
+\indexentry{individuos@{individuos}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!lista\discretionary {-}{}{}Adyacencia@{lista\discretionary {-}{}{}Adyacencia}|hyperpage}{7}
+\indexentry{lista\discretionary {-}{}{}Adyacencia@{lista\discretionary {-}{}{}Adyacencia}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!mating\discretionary {-}{}{}Pool@{mating\discretionary {-}{}{}Pool}|hyperpage}{7}
+\indexentry{mating\discretionary {-}{}{}Pool@{mating\discretionary {-}{}{}Pool}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial@{matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial}|hyperpage}{7}
+\indexentry{matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial@{matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!mejor\discretionary {-}{}{}Cromosoma@{mejor\discretionary {-}{}{}Cromosoma}|hyperpage}{7}
+\indexentry{mejor\discretionary {-}{}{}Cromosoma@{mejor\discretionary {-}{}{}Cromosoma}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion@{mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion}|hyperpage}{7}
+\indexentry{mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion@{mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!mejor\discretionary {-}{}{}Modularidad@{mejor\discretionary {-}{}{}Modularidad}|hyperpage}{7}
+\indexentry{mejor\discretionary {-}{}{}Modularidad@{mejor\discretionary {-}{}{}Modularidad}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!membresia\discretionary {-}{}{}Inicial@{membresia\discretionary {-}{}{}Inicial}|hyperpage}{7}
+\indexentry{membresia\discretionary {-}{}{}Inicial@{membresia\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!modularidad\discretionary {-}{}{}Final@{modularidad\discretionary {-}{}{}Final}|hyperpage}{7}
+\indexentry{modularidad\discretionary {-}{}{}Final@{modularidad\discretionary {-}{}{}Final}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!modularidad\discretionary {-}{}{}Inicial@{modularidad\discretionary {-}{}{}Inicial}|hyperpage}{7}
+\indexentry{modularidad\discretionary {-}{}{}Inicial@{modularidad\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits@{mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}|hyperpage}{7}
+\indexentry{mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits@{mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!nodos@{nodos}|hyperpage}{7}
+\indexentry{nodos@{nodos}!Algoritmo@{Algoritmo}|hyperpage}{7}
+\indexentry{Algoritmo@{Algoritmo}!poblacion@{poblacion}|hyperpage}{8}
+\indexentry{poblacion@{poblacion}!Algoritmo@{Algoritmo}|hyperpage}{8}
+\indexentry{Algoritmo@{Algoritmo}!porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool@{porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}|hyperpage}{8}
+\indexentry{porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool@{porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}!Algoritmo@{Algoritmo}|hyperpage}{8}
+\indexentry{Algoritmo@{Algoritmo}!tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial@{tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}|hyperpage}{8}
+\indexentry{tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial@{tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}!Algoritmo@{Algoritmo}|hyperpage}{8}
+\indexentry{Algoritmo@{Algoritmo}!tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool@{tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}|hyperpage}{8}
+\indexentry{tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool@{tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}!Algoritmo@{Algoritmo}|hyperpage}{8}
+\indexentry{Cromosoma@{Cromosoma}|hyperpage}{8}
+\indexentry{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}|hyperpage}{9}
+\indexentry{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}|hyperpage}{9}
+\indexentry{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}|hyperpage}{9}
+\indexentry{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}|hyperpage}{9}
+\indexentry{Cromosoma@{Cromosoma}!$\sim $\discretionary {-}{}{}Cromosoma@{$\sim $\discretionary {-}{}{}Cromosoma}|hyperpage}{10}
+\indexentry{$\sim $\discretionary {-}{}{}Cromosoma@{$\sim $\discretionary {-}{}{}Cromosoma}!Cromosoma@{Cromosoma}|hyperpage}{10}
+\indexentry{Cromosoma@{Cromosoma}!calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas@{calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas}|hyperpage}{10}
+\indexentry{calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas@{calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas}!Cromosoma@{Cromosoma}|hyperpage}{10}
+\indexentry{Cromosoma@{Cromosoma}!calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas@{calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas}|hyperpage}{10}
+\indexentry{calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas@{calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas}!Cromosoma@{Cromosoma}|hyperpage}{10}
+\indexentry{Cromosoma@{Cromosoma}!calcular\discretionary {-}{}{}Modularidad@{calcular\discretionary {-}{}{}Modularidad}|hyperpage}{10}
+\indexentry{calcular\discretionary {-}{}{}Modularidad@{calcular\discretionary {-}{}{}Modularidad}!Cromosoma@{Cromosoma}|hyperpage}{10}
+\indexentry{Cromosoma@{Cromosoma}!calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters@{calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}|hyperpage}{11}
+\indexentry{calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters@{calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad@{get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad}|hyperpage}{11}
+\indexentry{get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad@{get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final@{get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}|hyperpage}{11}
+\indexentry{get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final@{get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering@{get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering}|hyperpage}{11}
+\indexentry{get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering@{get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!get\discretionary {-}{}{}Modularidad@{get\discretionary {-}{}{}Modularidad}|hyperpage}{11}
+\indexentry{get\discretionary {-}{}{}Modularidad@{get\discretionary {-}{}{}Modularidad}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters@{get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}|hyperpage}{11}
+\indexentry{get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters@{get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!mutar@{mutar}|hyperpage}{11}
+\indexentry{mutar@{mutar}!Cromosoma@{Cromosoma}|hyperpage}{11}
+\indexentry{Cromosoma@{Cromosoma}!calculo\discretionary {-}{}{}Modularidad@{calculo\discretionary {-}{}{}Modularidad}|hyperpage}{12}
+\indexentry{calculo\discretionary {-}{}{}Modularidad@{calculo\discretionary {-}{}{}Modularidad}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final@{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}|hyperpage}{12}
+\indexentry{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final@{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial@{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}|hyperpage}{12}
+\indexentry{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial@{cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!configuracion@{configuracion}|hyperpage}{12}
+\indexentry{configuracion@{configuracion}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!matriz\discretionary {-}{}{}X@{matriz\discretionary {-}{}{}X}|hyperpage}{12}
+\indexentry{matriz\discretionary {-}{}{}X@{matriz\discretionary {-}{}{}X}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!modularidad@{modularidad}|hyperpage}{12}
+\indexentry{modularidad@{modularidad}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits@{mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}|hyperpage}{12}
+\indexentry{mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits@{mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!nodos@{nodos}|hyperpage}{12}
+\indexentry{nodos@{nodos}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!proporcion\discretionary {-}{}{}Clusters@{proporcion\discretionary {-}{}{}Clusters}|hyperpage}{12}
+\indexentry{proporcion\discretionary {-}{}{}Clusters@{proporcion\discretionary {-}{}{}Clusters}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Cromosoma@{Cromosoma}!tamanio\discretionary {-}{}{}Clusters@{tamanio\discretionary {-}{}{}Clusters}|hyperpage}{12}
+\indexentry{tamanio\discretionary {-}{}{}Clusters@{tamanio\discretionary {-}{}{}Clusters}!Cromosoma@{Cromosoma}|hyperpage}{12}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{13}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo@{$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo@{$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion@{crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}|hyperpage}{14}
+\indexentry{crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion@{crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original@{get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original}|hyperpage}{14}
+\indexentry{get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original@{get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo@{get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo}|hyperpage}{14}
+\indexentry{get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo@{get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo@{get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo@{get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{14}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion@{get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}|hyperpage}{15}
+\indexentry{get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion@{get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{15}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original@{get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original}|hyperpage}{15}
+\indexentry{get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original@{get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{15}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo@{get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo}|hyperpage}{15}
+\indexentry{get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo@{get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{15}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!get\discretionary {-}{}{}Subgrafo@{get\discretionary {-}{}{}Subgrafo}|hyperpage}{15}
+\indexentry{get\discretionary {-}{}{}Subgrafo@{get\discretionary {-}{}{}Subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{15}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente@{obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente}|hyperpage}{15}
+\indexentry{obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente@{obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{15}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!preprocesar@{preprocesar}|hyperpage}{15}
+\indexentry{preprocesar@{preprocesar}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{15}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!aristas\discretionary {-}{}{}Original@{aristas\discretionary {-}{}{}Original}|hyperpage}{17}
+\indexentry{aristas\discretionary {-}{}{}Original@{aristas\discretionary {-}{}{}Original}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!aristas\discretionary {-}{}{}Subgrafo@{aristas\discretionary {-}{}{}Subgrafo}|hyperpage}{17}
+\indexentry{aristas\discretionary {-}{}{}Subgrafo@{aristas\discretionary {-}{}{}Subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!flag\discretionary {-}{}{}Archivo@{flag\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{flag\discretionary {-}{}{}Archivo@{flag\discretionary {-}{}{}Archivo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion@{flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}|hyperpage}{17}
+\indexentry{flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion@{flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!flag\discretionary {-}{}{}Grafo@{flag\discretionary {-}{}{}Grafo}|hyperpage}{17}
+\indexentry{flag\discretionary {-}{}{}Grafo@{flag\discretionary {-}{}{}Grafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!flag\discretionary {-}{}{}Subgrafo@{flag\discretionary {-}{}{}Subgrafo}|hyperpage}{17}
+\indexentry{flag\discretionary {-}{}{}Subgrafo@{flag\discretionary {-}{}{}Subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!grafo@{grafo}|hyperpage}{17}
+\indexentry{grafo@{grafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!nodos\discretionary {-}{}{}Original@{nodos\discretionary {-}{}{}Original}|hyperpage}{17}
+\indexentry{nodos\discretionary {-}{}{}Original@{nodos\discretionary {-}{}{}Original}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!nodos\discretionary {-}{}{}Subgrafo@{nodos\discretionary {-}{}{}Subgrafo}|hyperpage}{17}
+\indexentry{nodos\discretionary {-}{}{}Subgrafo@{nodos\discretionary {-}{}{}Subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!nombre\discretionary {-}{}{}Archivo@{nombre\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{nombre\discretionary {-}{}{}Archivo@{nombre\discretionary {-}{}{}Archivo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Lectora\discretionary {-}{}{}Archivo@{Lectora\discretionary {-}{}{}Archivo}!subgrafo@{subgrafo}|hyperpage}{17}
+\indexentry{subgrafo@{subgrafo}!LectoraArchivo@{Lectora\discretionary {-}{}{}Archivo}|hyperpage}{17}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}|hyperpage}{18}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}|hyperpage}{19}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{19}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window@{$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window}|hyperpage}{19}
+\indexentry{$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window@{$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{19}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!abrir\discretionary {-}{}{}Archivo@{abrir\discretionary {-}{}{}Archivo}|hyperpage}{19}
+\indexentry{abrir\discretionary {-}{}{}Archivo@{abrir\discretionary {-}{}{}Archivo}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{19}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!deshabilitar\discretionary {-}{}{}Algoritmo@{deshabilitar\discretionary {-}{}{}Algoritmo}|hyperpage}{19}
+\indexentry{deshabilitar\discretionary {-}{}{}Algoritmo@{deshabilitar\discretionary {-}{}{}Algoritmo}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{19}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!destruir\discretionary {-}{}{}Datos@{destruir\discretionary {-}{}{}Datos}|hyperpage}{20}
+\indexentry{destruir\discretionary {-}{}{}Datos@{destruir\discretionary {-}{}{}Datos}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!ejecutar@{ejecutar}|hyperpage}{20}
+\indexentry{ejecutar@{ejecutar}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!guardar\discretionary {-}{}{}Solucion@{guardar\discretionary {-}{}{}Solucion}|hyperpage}{20}
+\indexentry{guardar\discretionary {-}{}{}Solucion@{guardar\discretionary {-}{}{}Solucion}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!limpiar\discretionary {-}{}{}Datos@{limpiar\discretionary {-}{}{}Datos}|hyperpage}{20}
+\indexentry{limpiar\discretionary {-}{}{}Datos@{limpiar\discretionary {-}{}{}Datos}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!algoritmo@{algoritmo}|hyperpage}{20}
+\indexentry{algoritmo@{algoritmo}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!flag\discretionary {-}{}{}Algoritmo@{flag\discretionary {-}{}{}Algoritmo}|hyperpage}{20}
+\indexentry{flag\discretionary {-}{}{}Algoritmo@{flag\discretionary {-}{}{}Algoritmo}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!flag\discretionary {-}{}{}Lectora@{flag\discretionary {-}{}{}Lectora}|hyperpage}{20}
+\indexentry{flag\discretionary {-}{}{}Lectora@{flag\discretionary {-}{}{}Lectora}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo@{lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo}|hyperpage}{20}
+\indexentry{lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo@{lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{Main\discretionary {-}{}{}Window@{Main\discretionary {-}{}{}Window}!ui@{ui}|hyperpage}{20}
+\indexentry{ui@{ui}!MainWindow@{Main\discretionary {-}{}{}Window}|hyperpage}{20}
+\indexentry{clustering/algoritmo.\discretionary {-}{}{}cpp@{clustering/algoritmo.\discretionary {-}{}{}cpp}|hyperpage}{20}
+\indexentry{clustering/algoritmo.\discretionary {-}{}{}h@{clustering/algoritmo.\discretionary {-}{}{}h}|hyperpage}{21}
+\indexentry{clustering/cromosoma.\discretionary {-}{}{}cpp@{clustering/cromosoma.\discretionary {-}{}{}cpp}|hyperpage}{23}
+\indexentry{clustering/cromosoma.\discretionary {-}{}{}h@{clustering/cromosoma.\discretionary {-}{}{}h}|hyperpage}{23}
+\indexentry{clustering/lectoraarchivo.\discretionary {-}{}{}cpp@{clustering/lectoraarchivo.\discretionary {-}{}{}cpp}|hyperpage}{25}
+\indexentry{clustering/lectoraarchivo.\discretionary {-}{}{}h@{clustering/lectoraarchivo.\discretionary {-}{}{}h}|hyperpage}{25}
+\indexentry{clustering/main.\discretionary {-}{}{}cpp@{clustering/main.\discretionary {-}{}{}cpp}|hyperpage}{27}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{27}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{27}
+\indexentry{clustering/mainwindow.\discretionary {-}{}{}cpp@{clustering/mainwindow.\discretionary {-}{}{}cpp}|hyperpage}{28}
+\indexentry{clustering/mainwindow.\discretionary {-}{}{}h@{clustering/mainwindow.\discretionary {-}{}{}h}|hyperpage}{28}

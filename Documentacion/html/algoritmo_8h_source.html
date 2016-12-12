@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>Clustering: Fichero Fuente clustering/algoritmo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Clustering
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('algoritmo_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">algoritmo.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="algoritmo_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef ALGORITMO_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ALGORITMO_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//#include &lt;igraph.h&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//#include &lt;unordered_set&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="cromosoma_8h.html" title="Definición de la clase Cromosoma. ">cromosoma.h</a>&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="code" href="class_algoritmo.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_algoritmo.html">Algoritmo</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:    </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a8b600a2b305e168f34896450a86330de">   22</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#a8b600a2b305e168f34896450a86330de">nodos</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="code" href="class_algoritmo.html#aebd547b83ffc0fc84727b4d32816e6a3">   23</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#aebd547b83ffc0fc84727b4d32816e6a3">aristas</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a5b2603327a6c450a76a6852ac26fe7a2">   25</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#a5b2603327a6c450a76a6852ac26fe7a2">individuos</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a76362b4a8f794e6206dcbeec3fe7a628">   26</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#a76362b4a8f794e6206dcbeec3fe7a628">generaciones</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a5f6b839180abb11469b6e33cf2dd2871">   28</a></span>&#160;    <a class="code" href="class_cromosoma.html">Cromosoma</a> **<a class="code" href="class_algoritmo.html#a5f6b839180abb11469b6e33cf2dd2871">poblacion</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a9c6c102ca50a3d69052d3c06ef19725c">   29</a></span>&#160;    <a class="code" href="class_cromosoma.html">Cromosoma</a> **<a class="code" href="class_algoritmo.html#a9c6c102ca50a3d69052d3c06ef19725c">matingPool</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="class_algoritmo.html#aeda95cdb4165c41656c1a3e2e157eb51">   31</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#aeda95cdb4165c41656c1a3e2e157eb51">mejorIndicePoblacion</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a282ec70d907d6923b59c91e425ad493f">   32</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_algoritmo.html#a282ec70d907d6923b59c91e425ad493f">mejorModularidad</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a2bb44f3dd4096ece8959ed32b05b5147">   33</a></span>&#160;    <a class="code" href="class_cromosoma.html">Cromosoma</a> *<a class="code" href="class_algoritmo.html#a2bb44f3dd4096ece8959ed32b05b5147">mejorCromosoma</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a0c34d9a4f7a55fc4afa538dd477ac633">   35</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#a0c34d9a4f7a55fc4afa538dd477ac633">tamMatingPool</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a8423d3ea20137a281055f4b04f1d5492">   36</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_algoritmo.html#a8423d3ea20137a281055f4b04f1d5492">porcentajeMatingPool</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a128d4c2bd8d16eb3cb94f29f75ce33de">   37</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_algoritmo.html#a128d4c2bd8d16eb3cb94f29f75ce33de">mutarDosBits</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a5bf75458f302256836f8c021c696b6d6">   39</a></span>&#160;    igraph_t <a class="code" href="class_algoritmo.html#a5bf75458f302256836f8c021c696b6d6">grafo</a>; <span class="comment">//Grafo al cual se le hara clustering</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a2aff6cb6814150fe6abdf5a3458765f8">   41</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_algoritmo.html#a2aff6cb6814150fe6abdf5a3458765f8">modularidadInicial</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="class_algoritmo.html#ad31bad8b81588053130542bc3ffb3d06">   42</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_algoritmo.html#ad31bad8b81588053130542bc3ffb3d06">modularidadFinal</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a740325de9f0e126452afbf5bce34bbc7">   43</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#a740325de9f0e126452afbf5bce34bbc7">cantClustersInicial</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a4b3baaedefed9ee655a1d1819b78a5df">   44</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_algoritmo.html#a4b3baaedefed9ee655a1d1819b78a5df">cantCambios</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="code" href="class_algoritmo.html#aa4b30738a2e2676d8375ad8a465067a7">   45</a></span>&#160;    igraph_vector_t <a class="code" href="class_algoritmo.html#aa4b30738a2e2676d8375ad8a465067a7">tamanioClustersInicial</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="class_algoritmo.html#ada55baff2fa6f00d257d2af78ba10b18">   46</a></span>&#160;    igraph_vector_t <a class="code" href="class_algoritmo.html#ada55baff2fa6f00d257d2af78ba10b18">membresiaInicial</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a2d2c192209608ebd713ccdd2460a1778">   48</a></span>&#160;    vector&lt;vector&lt;bool&gt; &gt; <a class="code" href="class_algoritmo.html#a2d2c192209608ebd713ccdd2460a1778">matrizXInicial</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a12d991b910cdf5383a53b1b7c12bad40">   49</a></span>&#160;    vector&lt;unordered_set&lt;int&gt; &gt; <a class="code" href="class_algoritmo.html#a12d991b910cdf5383a53b1b7c12bad40">configuracionInicial</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="code" href="class_algoritmo.html#a93ba06ec3089ad3b17037b2432136477">   50</a></span>&#160;    vector&lt;unordered_set&lt;int&gt; &gt; <a class="code" href="class_algoritmo.html#a93ba06ec3089ad3b17037b2432136477">listaAdyacencia</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="code" href="class_algoritmo.html#ac1129d6d9bc8bc6e731b0ad24ecb799a">   51</a></span>&#160;    vector&lt;unordered_set&lt;int&gt; &gt; <a class="code" href="class_algoritmo.html#ac1129d6d9bc8bc6e731b0ad24ecb799a">configuracionFinal</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> inicializarPoblacion();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> seleccionar();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">void</span> reproducir();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> clusteringNewman();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> inicializarMatrizX();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> inicializarConfiguracionInicial();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> construirListaAdyacencia();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="class_algoritmo.html">Algoritmo</a>();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="class_algoritmo.html">Algoritmo</a>(igraph_t &amp;grafo, <span class="keywordtype">int</span> nodos, <span class="keywordtype">int</span> aristas,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;              <span class="keywordtype">int</span> individuos, <span class="keywordtype">int</span> generaciones, <span class="keywordtype">double</span> porcentajeMatingPool, <span class="keywordtype">bool</span> mutarDosBits);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    ~<a class="code" href="class_algoritmo.html">Algoritmo</a>();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> algoritmo();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">double</span> getModularidad();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    vector&lt;unordered_set&lt;int&gt; &gt; getConfiguracionFinal();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> getCantCambios();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;};</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif // ALGORITMO_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0d3649d2cf3a9b2d82b03e941adb53c8.html">clustering</a></li><li class="navelem"><a class="el" href="algoritmo_8h.html">algoritmo.h</a></li>
+    <li class="footer">Generado el Lunes, 3 de Marzo de 2014 13:42:57 para Clustering por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
+  </ul>
+</div>
+</body>
+</html>

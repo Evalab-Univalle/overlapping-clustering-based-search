@@ -1,0 +1,242 @@
+\hypertarget{class_main_window}{\subsection{Referencia de la Clase Main\-Window}
+\label{class_main_window}\index{Main\-Window@{Main\-Window}}
+}
+
+
+{\ttfamily \#include $<$mainwindow.\-h$>$}
+
+
+
+Diagrama de herencias de Main\-Window\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_main_window__inherit__graph}
+\end{center}
+\end{figure}
+\subsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\-Window} (Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\-Window\-::\-Main\-Window(\-Q\-Widget $\ast$parent)} Constructor. Inicializa objeto \hyperlink{class_main_window}{Main\-Window}. \end{DoxyCompactList}\item 
+\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{$\sim$\-Main\-Window} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{Main\-Window\-::$\sim$\-Main\-Window()} Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Slots privados}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_main_window_a957d9751c06e3d563c12f8deac28bd0a}{ejecutar} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_a957d9751c06e3d563c12f8deac28bd0a}{Main\-Window\-::ejecutar()} Ejecuta el algoritmo. Y actualiza los campos con los datos obtenidos con el algoritmo. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a26d568bd0afde2853dbf4d1d376e5983}{abrir\-Archivo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_a26d568bd0afde2853dbf4d1d376e5983}{Main\-Window\-::abrir\-Archivo()} Este m\'{e}todo permite cargar un archivo de grafo, como primer paso para aplicar el algoritmo. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a05df693b04b7468859a1927de1002455}{guardar\-Solucion} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_a05df693b04b7468859a1927de1002455}{Main\-Window\-::guardar\-Solucion()} Guarda la solucion encontrada en formato {\itshape graphml}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_main_window_af241cf8ff6b2e4a17558e6487d705331}{deshabilitar\-Algoritmo} (bool habilitar)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_af241cf8ff6b2e4a17558e6487d705331}{Main\-Window\-::deshabilitar\-Algoritmo} Habilita o deshabilita la opci\'{o}n de usar el algoritmo. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a4678687dacfc0628fbb70a784eaf5ccb}{limpiar\-Datos} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window_a4678687dacfc0628fbb70a784eaf5ccb}{Main\-Window\-::limpiar\-Datos} Limpia los campos de los paneles de datos de entrada y datos de salida. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_ac851388477837047f7246785cddcd432}{destruir\-Datos} ()
+\end{DoxyCompactItemize}
+\subsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+Ui\-::\-Main\-Window $\ast$ \hyperlink{class_main_window_a35466a70ed47252a0191168126a352a5}{ui}
+\item 
+\hyperlink{class_algoritmo}{Algoritmo} $\ast$ \hyperlink{class_main_window_af719c5b31f6538cfe9b91a0e3f6a3e5e}{algoritmo}
+\item 
+\hyperlink{class_lectora_archivo}{Lectora\-Archivo} $\ast$ \hyperlink{class_main_window_acf9c9d69b2ad41d7d536f08c5e39dd15}{lectora\-De\-Archivo}
+\item 
+bool \hyperlink{class_main_window_a40ea4c12346500b727bb1b56647d0b9b}{flag\-Lectora}
+\item 
+bool \hyperlink{class_main_window_a03312d997bf45b1429cab82fb1b1e803}{flag\-Algoritmo}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Descripción detallada}
+
+
+Definición en la línea 20 del archivo mainwindow.\-h.
+
+
+
+\subsubsection{Documentación del constructor y destructor}
+\hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{\index{Main\-Window@{Main\-Window}!Main\-Window@{Main\-Window}}
+\index{Main\-Window@{Main\-Window}!MainWindow@{Main\-Window}}
+\paragraph[{Main\-Window}]{\setlength{\rightskip}{0pt plus 5cm}Main\-Window\-::\-Main\-Window (
+\begin{DoxyParamCaption}
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}
+
+
+\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\-Window\-::\-Main\-Window(\-Q\-Widget $\ast$parent)} Constructor. Inicializa objeto \hyperlink{class_main_window}{Main\-Window}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 25 del archivo mainwindow.\-cpp.
+
+\hypertarget{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{\index{Main\-Window@{Main\-Window}!$\sim$\-Main\-Window@{$\sim$\-Main\-Window}}
+\index{$\sim$\-Main\-Window@{$\sim$\-Main\-Window}!MainWindow@{Main\-Window}}
+\paragraph[{$\sim$\-Main\-Window}]{\setlength{\rightskip}{0pt plus 5cm}Main\-Window\-::$\sim$\-Main\-Window (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}
+
+
+\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{Main\-Window\-::$\sim$\-Main\-Window()} Destructor. 
+
+
+
+Definición en la línea 49 del archivo mainwindow.\-cpp.
+
+
+
+\subsubsection{Documentación de las funciones miembro}
+\hypertarget{class_main_window_a26d568bd0afde2853dbf4d1d376e5983}{\index{Main\-Window@{Main\-Window}!abrir\-Archivo@{abrir\-Archivo}}
+\index{abrir\-Archivo@{abrir\-Archivo}!MainWindow@{Main\-Window}}
+\paragraph[{abrir\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::abrir\-Archivo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}}\label{class_main_window_a26d568bd0afde2853dbf4d1d376e5983}
+
+
+\hyperlink{class_main_window_a26d568bd0afde2853dbf4d1d376e5983}{Main\-Window\-::abrir\-Archivo()} Este m\'{e}todo permite cargar un archivo de grafo, como primer paso para aplicar el algoritmo. 
+
+\begin{DoxyNote}{Nota}
+Los formatos admitidos son .graphml y .txt El formato .txt corresponde al formato de edgelist de un grafo.\par
+ A continuaci\'{o}n un ejemplo del formato .txt (edgelist)\-:\par
+ 1 2 \par
+ 3 6 \par
+ 7 8 \par
+\par
+
+\end{DoxyNote}
+Para conocer m\'{a}s acerca del formato .graphml visite \href{http://graphml.graphdrawing.org/primer/graphml-primer.html}{\tt http\-://graphml.\-graphdrawing.\-org/primer/graphml-\/primer.\-html} 
+
+Definición en la línea 157 del archivo mainwindow.\-cpp.
+
+\hypertarget{class_main_window_af241cf8ff6b2e4a17558e6487d705331}{\index{Main\-Window@{Main\-Window}!deshabilitar\-Algoritmo@{deshabilitar\-Algoritmo}}
+\index{deshabilitar\-Algoritmo@{deshabilitar\-Algoritmo}!MainWindow@{Main\-Window}}
+\paragraph[{deshabilitar\-Algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::deshabilitar\-Algoritmo (
+\begin{DoxyParamCaption}
+\item[{bool}]{habilitar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_af241cf8ff6b2e4a17558e6487d705331}
+
+
+\hyperlink{class_main_window_af241cf8ff6b2e4a17558e6487d705331}{Main\-Window\-::deshabilitar\-Algoritmo} Habilita o deshabilita la opci\'{o}n de usar el algoritmo. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em habilitar} & bool \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 73 del archivo mainwindow.\-cpp.
+
+\hypertarget{class_main_window_ac851388477837047f7246785cddcd432}{\index{Main\-Window@{Main\-Window}!destruir\-Datos@{destruir\-Datos}}
+\index{destruir\-Datos@{destruir\-Datos}!MainWindow@{Main\-Window}}
+\paragraph[{destruir\-Datos}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::destruir\-Datos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_ac851388477837047f7246785cddcd432}
+\hypertarget{class_main_window_a957d9751c06e3d563c12f8deac28bd0a}{\index{Main\-Window@{Main\-Window}!ejecutar@{ejecutar}}
+\index{ejecutar@{ejecutar}!MainWindow@{Main\-Window}}
+\paragraph[{ejecutar}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::ejecutar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}}\label{class_main_window_a957d9751c06e3d563c12f8deac28bd0a}
+
+
+\hyperlink{class_main_window_a957d9751c06e3d563c12f8deac28bd0a}{Main\-Window\-::ejecutar()} Ejecuta el algoritmo. Y actualiza los campos con los datos obtenidos con el algoritmo. 
+
+
+
+Definición en la línea 108 del archivo mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a05df693b04b7468859a1927de1002455}{\index{Main\-Window@{Main\-Window}!guardar\-Solucion@{guardar\-Solucion}}
+\index{guardar\-Solucion@{guardar\-Solucion}!MainWindow@{Main\-Window}}
+\paragraph[{guardar\-Solucion}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::guardar\-Solucion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}}\label{class_main_window_a05df693b04b7468859a1927de1002455}
+
+
+\hyperlink{class_main_window_a05df693b04b7468859a1927de1002455}{Main\-Window\-::guardar\-Solucion()} Guarda la solucion encontrada en formato {\itshape graphml}. 
+
+
+
+Definición en la línea 232 del archivo mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a4678687dacfc0628fbb70a784eaf5ccb}{\index{Main\-Window@{Main\-Window}!limpiar\-Datos@{limpiar\-Datos}}
+\index{limpiar\-Datos@{limpiar\-Datos}!MainWindow@{Main\-Window}}
+\paragraph[{limpiar\-Datos}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::limpiar\-Datos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_a4678687dacfc0628fbb70a784eaf5ccb}
+
+
+\hyperlink{class_main_window_a4678687dacfc0628fbb70a784eaf5ccb}{Main\-Window\-::limpiar\-Datos} Limpia los campos de los paneles de datos de entrada y datos de salida. 
+
+
+
+Definición en la línea 88 del archivo mainwindow.\-cpp.
+
+
+
+\subsubsection{Documentación de los datos miembro}
+\hypertarget{class_main_window_af719c5b31f6538cfe9b91a0e3f6a3e5e}{\index{Main\-Window@{Main\-Window}!algoritmo@{algoritmo}}
+\index{algoritmo@{algoritmo}!MainWindow@{Main\-Window}}
+\paragraph[{algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Algoritmo}$\ast$ Main\-Window\-::algoritmo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_af719c5b31f6538cfe9b91a0e3f6a3e5e}
+
+
+Definición en la línea 30 del archivo mainwindow.\-h.
+
+\hypertarget{class_main_window_a03312d997bf45b1429cab82fb1b1e803}{\index{Main\-Window@{Main\-Window}!flag\-Algoritmo@{flag\-Algoritmo}}
+\index{flag\-Algoritmo@{flag\-Algoritmo}!MainWindow@{Main\-Window}}
+\paragraph[{flag\-Algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::flag\-Algoritmo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_a03312d997bf45b1429cab82fb1b1e803}
+
+
+Definición en la línea 35 del archivo mainwindow.\-h.
+
+\hypertarget{class_main_window_a40ea4c12346500b727bb1b56647d0b9b}{\index{Main\-Window@{Main\-Window}!flag\-Lectora@{flag\-Lectora}}
+\index{flag\-Lectora@{flag\-Lectora}!MainWindow@{Main\-Window}}
+\paragraph[{flag\-Lectora}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::flag\-Lectora\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_a40ea4c12346500b727bb1b56647d0b9b}
+
+
+Definición en la línea 34 del archivo mainwindow.\-h.
+
+\hypertarget{class_main_window_acf9c9d69b2ad41d7d536f08c5e39dd15}{\index{Main\-Window@{Main\-Window}!lectora\-De\-Archivo@{lectora\-De\-Archivo}}
+\index{lectora\-De\-Archivo@{lectora\-De\-Archivo}!MainWindow@{Main\-Window}}
+\paragraph[{lectora\-De\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Lectora\-Archivo}$\ast$ Main\-Window\-::lectora\-De\-Archivo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_acf9c9d69b2ad41d7d536f08c5e39dd15}
+
+
+Definición en la línea 31 del archivo mainwindow.\-h.
+
+\hypertarget{class_main_window_a35466a70ed47252a0191168126a352a5}{\index{Main\-Window@{Main\-Window}!ui@{ui}}
+\index{ui@{ui}!MainWindow@{Main\-Window}}
+\paragraph[{ui}]{\setlength{\rightskip}{0pt plus 5cm}Ui\-::\-Main\-Window$\ast$ Main\-Window\-::ui\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_a35466a70ed47252a0191168126a352a5}
+
+
+Definición en la línea 29 del archivo mainwindow.\-h.
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\-:\begin{DoxyCompactItemize}
+\item 
+clustering/\hyperlink{mainwindow_8h}{mainwindow.\-h}\item 
+clustering/\hyperlink{mainwindow_8cpp}{mainwindow.\-cpp}\end{DoxyCompactItemize}

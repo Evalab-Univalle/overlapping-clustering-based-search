@@ -1,0 +1,383 @@
+\begin{theindex}
+
+  \item {$\sim $\discretionary {-}{}{}Algoritmo}
+    \subitem {Algoritmo}, \hyperpage{5}
+  \item {$\sim $\discretionary {-}{}{}Cromosoma}
+    \subitem {Cromosoma}, \hyperpage{10}
+  \item {$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+  \item {$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{19}
+
+  \indexspace
+
+  \item {abrir\discretionary {-}{}{}Archivo}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{19}
+  \item {Algoritmo}, \hyperpage{2}
+    \subitem {$\sim $\discretionary {-}{}{}Algoritmo}, \hyperpage{5}
+    \subitem {Algoritmo}, \hyperpage{4}
+    \subitem {algoritmo}, \hyperpage{5}
+    \subitem {aristas}, \hyperpage{6}
+    \subitem {cant\discretionary {-}{}{}Cambios}, \hyperpage{6}
+    \subitem {cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}, 
+		\hyperpage{6}
+    \subitem {clustering\discretionary {-}{}{}Newman}, \hyperpage{5}
+    \subitem {configuracion\discretionary {-}{}{}Final}, \hyperpage{6}
+    \subitem {configuracion\discretionary {-}{}{}Inicial}, 
+		\hyperpage{7}
+    \subitem {construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia}, 
+		\hyperpage{5}
+    \subitem {generaciones}, \hyperpage{7}
+    \subitem {get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios}, 
+		\hyperpage{5}
+    \subitem {get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final}, 
+		\hyperpage{5}
+    \subitem {get\discretionary {-}{}{}Modularidad}, \hyperpage{5}
+    \subitem {grafo}, \hyperpage{7}
+    \subitem {individuos}, \hyperpage{7}
+    \subitem {inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial}, 
+		\hyperpage{6}
+    \subitem {inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X}, 
+		\hyperpage{6}
+    \subitem {inicializar\discretionary {-}{}{}Poblacion}, 
+		\hyperpage{6}
+    \subitem {lista\discretionary {-}{}{}Adyacencia}, \hyperpage{7}
+    \subitem {mating\discretionary {-}{}{}Pool}, \hyperpage{7}
+    \subitem {matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial}, 
+		\hyperpage{7}
+    \subitem {mejor\discretionary {-}{}{}Cromosoma}, \hyperpage{7}
+    \subitem {mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion}, 
+		\hyperpage{7}
+    \subitem {mejor\discretionary {-}{}{}Modularidad}, \hyperpage{7}
+    \subitem {membresia\discretionary {-}{}{}Inicial}, \hyperpage{7}
+    \subitem {modularidad\discretionary {-}{}{}Final}, \hyperpage{7}
+    \subitem {modularidad\discretionary {-}{}{}Inicial}, \hyperpage{7}
+    \subitem {mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}, 
+		\hyperpage{7}
+    \subitem {nodos}, \hyperpage{7}
+    \subitem {poblacion}, \hyperpage{8}
+    \subitem {porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}, 
+		\hyperpage{8}
+    \subitem {reproducir}, \hyperpage{6}
+    \subitem {seleccionar}, \hyperpage{6}
+    \subitem {tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}, 
+		\hyperpage{8}
+    \subitem {tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}, 
+		\hyperpage{8}
+  \item {algoritmo}
+    \subitem {Algoritmo}, \hyperpage{5}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+  \item {aristas}
+    \subitem {Algoritmo}, \hyperpage{6}
+  \item {aristas\discretionary {-}{}{}Original}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {aristas\discretionary {-}{}{}Subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+
+  \indexspace
+
+  \item {calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas}
+    \subitem {Cromosoma}, \hyperpage{10}
+  \item {calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas}
+    \subitem {Cromosoma}, \hyperpage{10}
+  \item {calcular\discretionary {-}{}{}Modularidad}
+    \subitem {Cromosoma}, \hyperpage{10}
+  \item {calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {calculo\discretionary {-}{}{}Modularidad}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {cant\discretionary {-}{}{}Cambios}
+    \subitem {Algoritmo}, \hyperpage{6}
+  \item {cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{6}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {clustering/algoritmo.\discretionary {-}{}{}cpp}, 
+		\hyperpage{20}
+  \item {clustering/algoritmo.\discretionary {-}{}{}h}, \hyperpage{21}
+  \item {clustering/cromosoma.\discretionary {-}{}{}cpp}, 
+		\hyperpage{23}
+  \item {clustering/cromosoma.\discretionary {-}{}{}h}, \hyperpage{23}
+  \item {clustering/lectoraarchivo.\discretionary {-}{}{}cpp}, 
+		\hyperpage{25}
+  \item {clustering/lectoraarchivo.\discretionary {-}{}{}h}, 
+		\hyperpage{25}
+  \item {clustering/main.\discretionary {-}{}{}cpp}, \hyperpage{27}
+  \item {clustering/mainwindow.\discretionary {-}{}{}cpp}, 
+		\hyperpage{28}
+  \item {clustering/mainwindow.\discretionary {-}{}{}h}, \hyperpage{28}
+  \item {clustering\discretionary {-}{}{}Newman}
+    \subitem {Algoritmo}, \hyperpage{5}
+  \item {configuracion}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {configuracion\discretionary {-}{}{}Final}
+    \subitem {Algoritmo}, \hyperpage{6}
+  \item {configuracion\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia}
+    \subitem {Algoritmo}, \hyperpage{5}
+  \item {crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+  \item {Cromosoma}, \hyperpage{8}
+    \subitem {$\sim $\discretionary {-}{}{}Cromosoma}, \hyperpage{10}
+    \subitem {calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas}, 
+		\hyperpage{10}
+    \subitem {calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas}, 
+		\hyperpage{10}
+    \subitem {calcular\discretionary {-}{}{}Modularidad}, 
+		\hyperpage{10}
+    \subitem {calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}, 
+		\hyperpage{11}
+    \subitem {calculo\discretionary {-}{}{}Modularidad}, \hyperpage{12}
+    \subitem {cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}, 
+		\hyperpage{12}
+    \subitem {cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}, 
+		\hyperpage{12}
+    \subitem {configuracion}, \hyperpage{12}
+    \subitem {Cromosoma}, \hyperpage{9}
+    \subitem {get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad}, 
+		\hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}, 
+		\hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering}, 
+		\hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Modularidad}, \hyperpage{11}
+    \subitem {get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}, 
+		\hyperpage{11}
+    \subitem {matriz\discretionary {-}{}{}X}, \hyperpage{12}
+    \subitem {modularidad}, \hyperpage{12}
+    \subitem {mutar}, \hyperpage{11}
+    \subitem {mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}, 
+		\hyperpage{12}
+    \subitem {nodos}, \hyperpage{12}
+    \subitem {proporcion\discretionary {-}{}{}Clusters}, \hyperpage{12}
+    \subitem {tamanio\discretionary {-}{}{}Clusters}, \hyperpage{12}
+
+  \indexspace
+
+  \item {deshabilitar\discretionary {-}{}{}Algoritmo}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{19}
+  \item {destruir\discretionary {-}{}{}Datos}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+
+  \indexspace
+
+  \item {ejecutar}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+
+  \indexspace
+
+  \item {flag\discretionary {-}{}{}Algoritmo}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+  \item {flag\discretionary {-}{}{}Archivo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {flag\discretionary {-}{}{}Grafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {flag\discretionary {-}{}{}Lectora}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+  \item {flag\discretionary {-}{}{}Subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+
+  \indexspace
+
+  \item {generaciones}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+  \item {get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+  \item {get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios}
+    \subitem {Algoritmo}, \hyperpage{5}
+  \item {get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final}
+    \subitem {Algoritmo}, \hyperpage{5}
+  \item {get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+  \item {get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{15}
+  \item {get\discretionary {-}{}{}Modularidad}
+    \subitem {Algoritmo}, \hyperpage{5}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{15}
+  \item {get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{15}
+  \item {get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {get\discretionary {-}{}{}Subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{15}
+  \item {grafo}
+    \subitem {Algoritmo}, \hyperpage{7}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {guardar\discretionary {-}{}{}Solucion}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+
+  \indexspace
+
+  \item {individuos}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{6}
+  \item {inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X}
+    \subitem {Algoritmo}, \hyperpage{6}
+  \item {inicializar\discretionary {-}{}{}Poblacion}
+    \subitem {Algoritmo}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{13}
+    \subitem {$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo}, 
+		\hyperpage{14}
+    \subitem {aristas\discretionary {-}{}{}Original}, \hyperpage{17}
+    \subitem {aristas\discretionary {-}{}{}Subgrafo}, \hyperpage{17}
+    \subitem {crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}, 
+		\hyperpage{14}
+    \subitem {flag\discretionary {-}{}{}Archivo}, \hyperpage{17}
+    \subitem {flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}, 
+		\hyperpage{17}
+    \subitem {flag\discretionary {-}{}{}Grafo}, \hyperpage{17}
+    \subitem {flag\discretionary {-}{}{}Subgrafo}, \hyperpage{17}
+    \subitem {get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original}, 
+		\hyperpage{14}
+    \subitem {get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo}, 
+		\hyperpage{14}
+    \subitem {get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo}, 
+		\hyperpage{14}
+    \subitem {get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo}, 
+		\hyperpage{15}
+    \subitem {get\discretionary {-}{}{}Subgrafo}, \hyperpage{15}
+    \subitem {grafo}, \hyperpage{17}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{14}
+    \subitem {nodos\discretionary {-}{}{}Original}, \hyperpage{17}
+    \subitem {nodos\discretionary {-}{}{}Subgrafo}, \hyperpage{17}
+    \subitem {nombre\discretionary {-}{}{}Archivo}, \hyperpage{17}
+    \subitem {obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente}, 
+		\hyperpage{15}
+    \subitem {preprocesar}, \hyperpage{15}
+    \subitem {subgrafo}, \hyperpage{17}
+  \item {lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+  \item {limpiar\discretionary {-}{}{}Datos}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+  \item {lista\discretionary {-}{}{}Adyacencia}
+    \subitem {Algoritmo}, \hyperpage{7}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{27}
+  \item {main.\discretionary {-}{}{}cpp}
+    \subitem {main}, \hyperpage{27}
+  \item {Main\discretionary {-}{}{}Window}, \hyperpage{18}
+    \subitem {$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{19}
+    \subitem {abrir\discretionary {-}{}{}Archivo}, \hyperpage{19}
+    \subitem {algoritmo}, \hyperpage{20}
+    \subitem {deshabilitar\discretionary {-}{}{}Algoritmo}, 
+		\hyperpage{19}
+    \subitem {destruir\discretionary {-}{}{}Datos}, \hyperpage{20}
+    \subitem {ejecutar}, \hyperpage{20}
+    \subitem {flag\discretionary {-}{}{}Algoritmo}, \hyperpage{20}
+    \subitem {flag\discretionary {-}{}{}Lectora}, \hyperpage{20}
+    \subitem {guardar\discretionary {-}{}{}Solucion}, \hyperpage{20}
+    \subitem {lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo}, 
+		\hyperpage{20}
+    \subitem {limpiar\discretionary {-}{}{}Datos}, \hyperpage{20}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{19}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{19}
+    \subitem {ui}, \hyperpage{20}
+  \item {mating\discretionary {-}{}{}Pool}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {matriz\discretionary {-}{}{}X}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {mejor\discretionary {-}{}{}Cromosoma}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {mejor\discretionary {-}{}{}Modularidad}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {membresia\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {modularidad}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {modularidad\discretionary {-}{}{}Final}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {modularidad\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{7}
+  \item {mutar}
+    \subitem {Cromosoma}, \hyperpage{11}
+  \item {mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}
+    \subitem {Algoritmo}, \hyperpage{7}
+    \subitem {Cromosoma}, \hyperpage{12}
+
+  \indexspace
+
+  \item {nodos}
+    \subitem {Algoritmo}, \hyperpage{7}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {nodos\discretionary {-}{}{}Original}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {nodos\discretionary {-}{}{}Subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+  \item {nombre\discretionary {-}{}{}Archivo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+
+  \indexspace
+
+  \item {obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{15}
+
+  \indexspace
+
+  \item {poblacion}
+    \subitem {Algoritmo}, \hyperpage{8}
+  \item {porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}
+    \subitem {Algoritmo}, \hyperpage{8}
+  \item {preprocesar}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{15}
+  \item {proporcion\discretionary {-}{}{}Clusters}
+    \subitem {Cromosoma}, \hyperpage{12}
+
+  \indexspace
+
+  \item {reproducir}
+    \subitem {Algoritmo}, \hyperpage{6}
+
+  \indexspace
+
+  \item {seleccionar}
+    \subitem {Algoritmo}, \hyperpage{6}
+  \item {subgrafo}
+    \subitem {Lectora\discretionary {-}{}{}Archivo}, \hyperpage{17}
+
+  \indexspace
+
+  \item {tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}
+    \subitem {Algoritmo}, \hyperpage{8}
+  \item {tamanio\discretionary {-}{}{}Clusters}
+    \subitem {Cromosoma}, \hyperpage{12}
+  \item {tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}
+    \subitem {Algoritmo}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Ui}, \hyperpage{2}
+  \item {ui}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{20}
+
+\end{theindex}

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="modularity-class-1" for="node" attr.name="modularity-class-1" attr.type="double"/>
+  <key id="modularity-class-2" for="node" attr.name="modularity-class-2" attr.type="double"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="name">1</data>
+      <data key="modularity-class-1">0</data>
+      <data key="modularity-class-2">2</data>
+    </node>
+    <node id="n1">
+      <data key="name">2</data>
+      <data key="modularity-class-1">0</data>
+      <data key="modularity-class-2">2</data>
+    </node>
+    <node id="n2">
+      <data key="name">3</data>
+      <data key="modularity-class-1">2</data>
+    </node>
+    <node id="n3">
+      <data key="name">4</data>
+      <data key="modularity-class-1">0</data>
+      <data key="modularity-class-2">2</data>
+    </node>
+    <node id="n4">
+      <data key="name">5</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n5">
+      <data key="name">6</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n6">
+      <data key="name">7</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n7">
+      <data key="name">8</data>
+      <data key="modularity-class-1">0</data>
+      <data key="modularity-class-2">2</data>
+    </node>
+    <node id="n8">
+      <data key="name">9</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n9">
+      <data key="name">10</data>
+      <data key="modularity-class-1">2</data>
+    </node>
+    <node id="n10">
+      <data key="name">11</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n11">
+      <data key="name">12</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n12">
+      <data key="name">13</data>
+      <data key="modularity-class-1">2</data>
+    </node>
+    <node id="n13">
+      <data key="name">14</data>
+      <data key="modularity-class-1">2</data>
+    </node>
+    <node id="n14">
+      <data key="name">15</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n15">
+      <data key="name">16</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n16">
+      <data key="name">17</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n17">
+      <data key="name">18</data>
+      <data key="modularity-class-1">0</data>
+      <data key="modularity-class-2">2</data>
+    </node>
+    <node id="n18">
+      <data key="name">19</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n19">
+      <data key="name">20</data>
+      <data key="modularity-class-1">0</data>
+    </node>
+    <node id="n20">
+      <data key="name">21</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n21">
+      <data key="name">22</data>
+      <data key="modularity-class-1">0</data>
+      <data key="modularity-class-2">2</data>
+    </node>
+    <node id="n22">
+      <data key="name">23</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n23">
+      <data key="name">24</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n24">
+      <data key="name">25</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n25">
+      <data key="name">26</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n26">
+      <data key="name">27</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n27">
+      <data key="name">28</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n28">
+      <data key="name">29</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n29">
+      <data key="name">30</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n30">
+      <data key="name">31</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n31">
+      <data key="name">32</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n32">
+      <data key="name">33</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <node id="n33">
+      <data key="name">34</data>
+      <data key="modularity-class-1">1</data>
+    </node>
+    <edge source="n0" target="n1">
+    </edge>
+    <edge source="n0" target="n2">
+    </edge>
+    <edge source="n1" target="n2">
+    </edge>
+    <edge source="n0" target="n3">
+    </edge>
+    <edge source="n1" target="n3">
+    </edge>
+    <edge source="n2" target="n3">
+    </edge>
+    <edge source="n0" target="n4">
+    </edge>
+    <edge source="n0" target="n5">
+    </edge>
+    <edge source="n0" target="n6">
+    </edge>
+    <edge source="n4" target="n6">
+    </edge>
+    <edge source="n5" target="n6">
+    </edge>
+    <edge source="n0" target="n7">
+    </edge>
+    <edge source="n1" target="n7">
+    </edge>
+    <edge source="n2" target="n7">
+    </edge>
+    <edge source="n3" target="n7">
+    </edge>
+    <edge source="n0" target="n8">
+    </edge>
+    <edge source="n2" target="n8">
+    </edge>
+    <edge source="n2" target="n9">
+    </edge>
+    <edge source="n0" target="n10">
+    </edge>
+    <edge source="n4" target="n10">
+    </edge>
+    <edge source="n5" target="n10">
+    </edge>
+    <edge source="n0" target="n11">
+    </edge>
+    <edge source="n0" target="n12">
+    </edge>
+    <edge source="n3" target="n12">
+    </edge>
+    <edge source="n0" target="n13">
+    </edge>
+    <edge source="n1" target="n13">
+    </edge>
+    <edge source="n2" target="n13">
+    </edge>
+    <edge source="n3" target="n13">
+    </edge>
+    <edge source="n5" target="n16">
+    </edge>
+    <edge source="n6" target="n16">
+    </edge>
+    <edge source="n0" target="n17">
+    </edge>
+    <edge source="n1" target="n17">
+    </edge>
+    <edge source="n0" target="n19">
+    </edge>
+    <edge source="n1" target="n19">
+    </edge>
+    <edge source="n0" target="n21">
+    </edge>
+    <edge source="n1" target="n21">
+    </edge>
+    <edge source="n23" target="n25">
+    </edge>
+    <edge source="n24" target="n25">
+    </edge>
+    <edge source="n2" target="n27">
+    </edge>
+    <edge source="n23" target="n27">
+    </edge>
+    <edge source="n24" target="n27">
+    </edge>
+    <edge source="n2" target="n28">
+    </edge>
+    <edge source="n23" target="n29">
+    </edge>
+    <edge source="n26" target="n29">
+    </edge>
+    <edge source="n1" target="n30">
+    </edge>
+    <edge source="n8" target="n30">
+    </edge>
+    <edge source="n0" target="n31">
+    </edge>
+    <edge source="n24" target="n31">
+    </edge>
+    <edge source="n25" target="n31">
+    </edge>
+    <edge source="n28" target="n31">
+    </edge>
+    <edge source="n2" target="n32">
+    </edge>
+    <edge source="n8" target="n32">
+    </edge>
+    <edge source="n14" target="n32">
+    </edge>
+    <edge source="n15" target="n32">
+    </edge>
+    <edge source="n18" target="n32">
+    </edge>
+    <edge source="n20" target="n32">
+    </edge>
+    <edge source="n22" target="n32">
+    </edge>
+    <edge source="n23" target="n32">
+    </edge>
+    <edge source="n29" target="n32">
+    </edge>
+    <edge source="n30" target="n32">
+    </edge>
+    <edge source="n31" target="n32">
+    </edge>
+    <edge source="n8" target="n33">
+    </edge>
+    <edge source="n9" target="n33">
+    </edge>
+    <edge source="n13" target="n33">
+    </edge>
+    <edge source="n14" target="n33">
+    </edge>
+    <edge source="n15" target="n33">
+    </edge>
+    <edge source="n18" target="n33">
+    </edge>
+    <edge source="n19" target="n33">
+    </edge>
+    <edge source="n20" target="n33">
+    </edge>
+    <edge source="n22" target="n33">
+    </edge>
+    <edge source="n23" target="n33">
+    </edge>
+    <edge source="n26" target="n33">
+    </edge>
+    <edge source="n27" target="n33">
+    </edge>
+    <edge source="n28" target="n33">
+    </edge>
+    <edge source="n29" target="n33">
+    </edge>
+    <edge source="n30" target="n33">
+    </edge>
+    <edge source="n31" target="n33">
+    </edge>
+    <edge source="n32" target="n33">
+    </edge>
+  </graph>
+</graphml>

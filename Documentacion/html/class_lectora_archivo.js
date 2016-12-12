@@ -1,0 +1,26 @@
+var class_lectora_archivo =
+[
+    [ "LectoraArchivo", "class_lectora_archivo.html#aae77d0c44d180ec72244accb93d2f5ac", null ],
+    [ "~LectoraArchivo", "class_lectora_archivo.html#a84fdf7dce27b3e1f3a6b36c3d24c6150", null ],
+    [ "crearArchivoSolucion", "class_lectora_archivo.html#a9ec3aa9804dd0469a695b371a4eccfa1", null ],
+    [ "getAristasOriginal", "class_lectora_archivo.html#ac7b9cf410afa1eb5ea0c068ebfaa26f5", null ],
+    [ "getAristasSubgrafo", "class_lectora_archivo.html#a68a43abd1d057194c134d937a97d30e7", null ],
+    [ "getFlagArchivo", "class_lectora_archivo.html#aa0688f5f52c905598e4dc152e4553e51", null ],
+    [ "getFlagArchivoSolucion", "class_lectora_archivo.html#aa59f0d1c56b4d073e07ec495439738f6", null ],
+    [ "getNodosOriginal", "class_lectora_archivo.html#a7ab5551369ff9750f3273ded4c71fa5d", null ],
+    [ "getNodosSubgrafo", "class_lectora_archivo.html#ac9717ec799f975e480c8c37a33f06b09", null ],
+    [ "getSubgrafo", "class_lectora_archivo.html#ad6314a01d7360d2304c715e8f535d667", null ],
+    [ "obtenerGranComponente", "class_lectora_archivo.html#a627952a19595643d18aa43820666ac87", null ],
+    [ "preprocesar", "class_lectora_archivo.html#afcfe1ce17164087c3dac3939e1183391", null ],
+    [ "aristasOriginal", "class_lectora_archivo.html#a466143a1c460bd6ec8cc0f8938c4342d", null ],
+    [ "aristasSubgrafo", "class_lectora_archivo.html#aa72a45703b6dc1c492e2dccd27ba7645", null ],
+    [ "flagArchivo", "class_lectora_archivo.html#a7843bade2641571159e4b92a48ded4af", null ],
+    [ "flagArchivoSolucion", "class_lectora_archivo.html#aa0fd4f25ef55ad4e1b0a1a9c0bc6522d", null ],
+    [ "flagGrafo", "class_lectora_archivo.html#a2d3e57219f5e60ac8b65b14b63ce9ec3", null ],
+    [ "flagSubgrafo", "class_lectora_archivo.html#a6480fdfc671d20dc5f609ac04371e368", null ],
+    [ "grafo", "class_lectora_archivo.html#affd372a364e76c94aa70740f4fa3b744", null ],
+    [ "nodosOriginal", "class_lectora_archivo.html#a2a7a807314562f857808b015685335ba", null ],
+    [ "nodosSubgrafo", "class_lectora_archivo.html#a2eaf25b97a022e0247cefc7109d0e522", null ],
+    [ "nombreArchivo", "class_lectora_archivo.html#ac3cddfb1afc543a82eb72efbc80b501f", null ],
+    [ "subgrafo", "class_lectora_archivo.html#ab04363a5dd47b71aac4922912bf0c9c1", null ]
+];

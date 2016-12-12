@@ -1,0 +1,434 @@
+\hypertarget{class_cromosoma}{\subsection{Referencia de la Clase Cromosoma}
+\label{class_cromosoma}\index{Cromosoma@{Cromosoma}}
+}
+
+
+{\ttfamily \#include $<$cromosoma.\-h$>$}
+
+\subsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}{Cromosoma} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}{Cromosoma\-::\-Cromosoma} Constructor por defecto. \end{DoxyCompactList}\item 
+\hyperlink{class_cromosoma_a73005200af7dfe43ba95b53d59530aef}{Cromosoma} (vector$<$ vector$<$ bool $>$ $>$ \&matriz\-X\-Inicial, vector$<$ unordered\-\_\-set$<$ int $>$ $>$ configuracion\-Inicial, bool \hyperlink{class_cromosoma_a4fca54673dbf02d203ba8e106233e333}{mutar\-Dos\-Bits}, int \hyperlink{class_cromosoma_a02471be3a2fd834be973bae8c2db42ac}{nodos}, int \hyperlink{class_cromosoma_a3b705a43d31136065740f0e01ee6af0b}{cant\-Clusters\-Inicial}, int nodo, int cluster)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}{Cromosoma\-::\-Cromosoma} Constructor. Se inicializa un objeto de la clase \hyperlink{class_cromosoma}{Cromosoma}, donde se añade un solapamiento en el {\itshape clustering}. \end{DoxyCompactList}\item 
+\hyperlink{class_cromosoma_a39310d043c187768ba83a1a9c921e966}{$\sim$\-Cromosoma} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_a39310d043c187768ba83a1a9c921e966}{Cromosoma\-::$\sim$\-Cromosoma} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_cromosoma_ac331434df88dfd7cdebee472381ff106}{calcular\-Modularidad} (vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \&lista\-Adyacencia, int aristas)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_ac331434df88dfd7cdebee472381ff106}{Cromosoma\-::calcular\-Modularidad} Calcula la modularidad de la configuraci\'{o}n de {\itshape clustering} que se ha realizado en un grafo. \end{DoxyCompactList}\item 
+void \hyperlink{class_cromosoma_ae00d281b447cf12042269174e586fb8b}{calcular\-Proporcion\-Clusters} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_ae00d281b447cf12042269174e586fb8b}{Cromosoma\-::calcular\-Proporcion\-Clusters} Calcula la proporci\'{o}n de {\itshape clusters}. Divide la cantidad de {\itshape clusters} actuales por la cantidad de {\itshape clusters} inicial. \end{DoxyCompactList}\item 
+double \hyperlink{class_cromosoma_a2939af9ae57532c5800a7d4cc7933095}{get\-Modularidad} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_a2939af9ae57532c5800a7d4cc7933095}{Cromosoma\-::get\-Modularidad} Retorna modularidad del cromosoma. \end{DoxyCompactList}\item 
+double \hyperlink{class_cromosoma_a1ff8e03e985f2eccd5ac4bb2b2b09a43}{get\-Proporcion\-Clusters} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_a1ff8e03e985f2eccd5ac4bb2b2b09a43}{Cromosoma\-::get\-Proporcion\-Clusters} Retorna la proporci\'{o}n de {\itshape clusters} respecto a la cantidad inicial. \end{DoxyCompactList}\item 
+void \hyperlink{class_cromosoma_ad559093928da2dedca134f097c1e08a0}{mutar} (int nodos\-Mutar\mbox{[}$\,$\mbox{]}, int clusters\-Mutar\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_ad559093928da2dedca134f097c1e08a0}{Cromosoma\-::mutar} Cambia a {\itshape true} la pertencia del nodo, si el nodo a mutar no pertenec\'{\i}a al {\itshape cluster}, o a {\itshape false} en caso contrario. Cuando cambia a {\itshape false} la pertenencia del nodo; se verifica que el nodo pertenezca al menos a un {\itshape cluster}, sino se deja el cromosoma sin mutar. \end{DoxyCompactList}\item 
+vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \hyperlink{class_cromosoma_afcb14040e4bae7f1e267654270f5c0a0}{get\-Configuracion\-Clustering} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_afcb14040e4bae7f1e267654270f5c0a0}{Cromosoma\-::get\-Configuracion\-Clustering} Retorna la configuracin de {\itshape clustering} obtenida en el cromosoma. \end{DoxyCompactList}\item 
+bool \hyperlink{class_cromosoma_a1d6c1609245c697ef2502b2da47e1375}{get\-Calculo\-Modularidad} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_a1d6c1609245c697ef2502b2da47e1375}{Cromosoma\-::get\-Calculo\-Modularidad} Retorna el booleano que representa si ya se ha realizado el c\'{a}lculo de la modularidad. \end{DoxyCompactList}\item 
+int \hyperlink{class_cromosoma_acd65433defe28a89eaadbd7d429be50b}{get\-Cantidad\-Clusters\-Final} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_acd65433defe28a89eaadbd7d429be50b}{Cromosoma\-::get\-Cantidad\-Clusters\-Final} Retorna la cantidad de {\itshape clusters} de la configuraci\'{o}n final de {\itshape clustering}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_cromosoma_abb12b97e13cc36306a4ec775a969968b}{calcular\-Fraccion\-Aristas\-Internas} (vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \&lista\-Adyacencia, int cluster\-A, int cluster\-B, int aristas)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_abb12b97e13cc36306a4ec775a969968b}{Cromosoma\-::calcular\-Fraccion\-Aristas\-Internas} Calcula la cantidad la fracci\'{o}n de las aristas que conectan nodos que pertenencen al {\itshape cluster\-A} con nodos que pertenencen al {\itshape cluster\-B}. \end{DoxyCompactList}\item 
+double \hyperlink{class_cromosoma_adf593209a71231d494979b2ceb9a3f5b}{calcular\-Fraccion\-Aristas\-Externas} (vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \&lista\-Adyacencia, int cluster\-A, int aristas)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_cromosoma_adf593209a71231d494979b2ceb9a3f5b}{Cromosoma\-::calcular\-Fraccion\-Aristas\-Externas} Calcula la fraccin de aristas que terminan en nodos del {\itshape cluster\-A}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ vector$<$ bool $>$ $>$ \hyperlink{class_cromosoma_a880fe27df3984b070a7b78e325df4508}{matriz\-X}
+\item 
+vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \hyperlink{class_cromosoma_aa72923b86f007d67f2ed7801af5b67a0}{configuracion}
+\item 
+double \hyperlink{class_cromosoma_a71f2100afa1fc999c31ef6cbd581abb9}{modularidad}
+\item 
+float \hyperlink{class_cromosoma_a7e433a89f92319f7064ac2604e7eb704}{proporcion\-Clusters}
+\item 
+bool \hyperlink{class_cromosoma_aa0725a35f0aff05db24fb9a34bc203c6}{calculo\-Modularidad}
+\item 
+int \hyperlink{class_cromosoma_a02471be3a2fd834be973bae8c2db42ac}{nodos}
+\item 
+int \hyperlink{class_cromosoma_a3b705a43d31136065740f0e01ee6af0b}{cant\-Clusters\-Inicial}
+\item 
+int \hyperlink{class_cromosoma_a52614c5344094ee5c517638e018a3706}{cant\-Clusters\-Final}
+\item 
+igraph\-\_\-vector\-\_\-t \hyperlink{class_cromosoma_af79cd411043a57f71a9c41b1a0f8fb9e}{tamanio\-Clusters}
+\item 
+bool \hyperlink{class_cromosoma_a4fca54673dbf02d203ba8e106233e333}{mutar\-Dos\-Bits}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Descripción detallada}
+
+
+Definición en la línea 18 del archivo cromosoma.\-h.
+
+
+
+\subsubsection{Documentación del constructor y destructor}
+\hypertarget{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}{\index{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}}
+\index{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}}
+\paragraph[{Cromosoma}]{\setlength{\rightskip}{0pt plus 5cm}Cromosoma\-::\-Cromosoma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}
+
+
+\hyperlink{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}{Cromosoma\-::\-Cromosoma} Constructor por defecto. 
+
+
+
+Definición en la línea 18 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_a73005200af7dfe43ba95b53d59530aef}{\index{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}}
+\index{Cromosoma@{Cromosoma}!Cromosoma@{Cromosoma}}
+\paragraph[{Cromosoma}]{\setlength{\rightskip}{0pt plus 5cm}Cromosoma\-::\-Cromosoma (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ bool $>$ $>$ \&}]{matriz\-X\-Inicial, }
+\item[{vector$<$ unordered\-\_\-set$<$ int $>$ $>$}]{configuracion\-Inicial, }
+\item[{bool}]{mutar\-Dos\-Bits, }
+\item[{int}]{nodos, }
+\item[{int}]{cant\-Clusters\-Inicial, }
+\item[{int}]{nodo, }
+\item[{int}]{cluster}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_a73005200af7dfe43ba95b53d59530aef}
+
+
+\hyperlink{class_cromosoma_a8367f3dd60c6af083aed533c69f17b29}{Cromosoma\-::\-Cromosoma} Constructor. Se inicializa un objeto de la clase \hyperlink{class_cromosoma}{Cromosoma}, donde se añade un solapamiento en el {\itshape clustering}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em matriz\-X\-Inicial} & vector$<$vector$<$bool$>$ $>$ referencia de la configuraci\'{o}n de {\itshape clustering} que retorn\'{o} el algoritmo de Newman. \\
+\hline
+{\em configuracion\-Inicial} & vector$<$unordered\-\_\-set$<$int$>$ $>$ con la configuraci\'{o}n de {\itshape clustering} que retorn\'{o} el algoritmo de Newman en formato de lista de adyacencia. \\
+\hline
+{\em mutar\-Dos\-Bits} & bool que indica si la mutaci\'{o}n se debe realizar sobre un bit o sobre dos bits de la matriz de membresia. \\
+\hline
+{\em nodos} & int con el n\'{u}mero total de nodos en el grafo. \\
+\hline
+{\em cant\-Clusters\-Inicial} & int con el n\'{u}mero total de {\itshape clusters} que se obtuvieron con el algoritmo de Newman. \\
+\hline
+{\em nodo} & int con el n\'{u}mero del nodo que har\'{a} solapamiento. \\
+\hline
+{\em cluster} & int con el n\'{u}mero del {\itshape cluster} que tendr\'{a} un nodo mas en el grupo. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 34 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_a39310d043c187768ba83a1a9c921e966}{\index{Cromosoma@{Cromosoma}!$\sim$\-Cromosoma@{$\sim$\-Cromosoma}}
+\index{$\sim$\-Cromosoma@{$\sim$\-Cromosoma}!Cromosoma@{Cromosoma}}
+\paragraph[{$\sim$\-Cromosoma}]{\setlength{\rightskip}{0pt plus 5cm}Cromosoma\-::$\sim$\-Cromosoma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_a39310d043c187768ba83a1a9c921e966}
+
+
+\hyperlink{class_cromosoma_a39310d043c187768ba83a1a9c921e966}{Cromosoma\-::$\sim$\-Cromosoma} Destructor. 
+
+
+
+Definición en la línea 86 del archivo cromosoma.\-cpp.
+
+
+
+\subsubsection{Documentación de las funciones miembro}
+\hypertarget{class_cromosoma_adf593209a71231d494979b2ceb9a3f5b}{\index{Cromosoma@{Cromosoma}!calcular\-Fraccion\-Aristas\-Externas@{calcular\-Fraccion\-Aristas\-Externas}}
+\index{calcular\-Fraccion\-Aristas\-Externas@{calcular\-Fraccion\-Aristas\-Externas}!Cromosoma@{Cromosoma}}
+\paragraph[{calcular\-Fraccion\-Aristas\-Externas}]{\setlength{\rightskip}{0pt plus 5cm}double Cromosoma\-::calcular\-Fraccion\-Aristas\-Externas (
+\begin{DoxyParamCaption}
+\item[{vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \&}]{lista\-Adyacencia, }
+\item[{int}]{cluster\-A, }
+\item[{int}]{aristas}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_adf593209a71231d494979b2ceb9a3f5b}
+
+
+\hyperlink{class_cromosoma_adf593209a71231d494979b2ceb9a3f5b}{Cromosoma\-::calcular\-Fraccion\-Aristas\-Externas} Calcula la fraccin de aristas que terminan en nodos del {\itshape cluster\-A}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em lista\-Adyacencia} & vector$<$unordered\-\_\-set$<$int$>$ $>$ referencia de la lista de adyacencia del grafo. \\
+\hline
+{\em cluster\-A} & int como identificador de un cluster. \\
+\hline
+{\em aristas} & int n\'{u}mero total de aristas en el grafo. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+doble con la fracci\'{o}n de aristas externas de un {\itshape cluster}. 
+\end{DoxyReturn}
+
+
+Definición en la línea 168 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_abb12b97e13cc36306a4ec775a969968b}{\index{Cromosoma@{Cromosoma}!calcular\-Fraccion\-Aristas\-Internas@{calcular\-Fraccion\-Aristas\-Internas}}
+\index{calcular\-Fraccion\-Aristas\-Internas@{calcular\-Fraccion\-Aristas\-Internas}!Cromosoma@{Cromosoma}}
+\paragraph[{calcular\-Fraccion\-Aristas\-Internas}]{\setlength{\rightskip}{0pt plus 5cm}double Cromosoma\-::calcular\-Fraccion\-Aristas\-Internas (
+\begin{DoxyParamCaption}
+\item[{vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \&}]{lista\-Adyacencia, }
+\item[{int}]{cluster\-A, }
+\item[{int}]{cluster\-B, }
+\item[{int}]{aristas}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_abb12b97e13cc36306a4ec775a969968b}
+
+
+\hyperlink{class_cromosoma_abb12b97e13cc36306a4ec775a969968b}{Cromosoma\-::calcular\-Fraccion\-Aristas\-Internas} Calcula la cantidad la fracci\'{o}n de las aristas que conectan nodos que pertenencen al {\itshape cluster\-A} con nodos que pertenencen al {\itshape cluster\-B}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em lista\-Adyacencia} & vector$<$unordered\-\_\-set$<$int$>$ $>$ referencia de la lista de adyacencia del grafo. \\
+\hline
+{\em cluster\-A} & int como identificador de un cluster. \\
+\hline
+{\em cluster\-B} & int como identificador de un cluster. \\
+\hline
+{\em aristas} & int n\'{u}mero total de aristas en el grafo. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+doble con la fracci\'{o}n de aristas internas de un {\itshape cluster}. 
+\end{DoxyReturn}
+
+
+Definición en la línea 137 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_ac331434df88dfd7cdebee472381ff106}{\index{Cromosoma@{Cromosoma}!calcular\-Modularidad@{calcular\-Modularidad}}
+\index{calcular\-Modularidad@{calcular\-Modularidad}!Cromosoma@{Cromosoma}}
+\paragraph[{calcular\-Modularidad}]{\setlength{\rightskip}{0pt plus 5cm}void Cromosoma\-::calcular\-Modularidad (
+\begin{DoxyParamCaption}
+\item[{vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \&}]{lista\-Adyacencia, }
+\item[{int}]{aristas}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_ac331434df88dfd7cdebee472381ff106}
+
+
+\hyperlink{class_cromosoma_ac331434df88dfd7cdebee472381ff106}{Cromosoma\-::calcular\-Modularidad} Calcula la modularidad de la configuraci\'{o}n de {\itshape clustering} que se ha realizado en un grafo. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em lista\-Adyacencia} & vector$<$unordered\-\_\-set$<$int$>$ $>$ referencia de la lista de adyacencia del grafo. \\
+\hline
+{\em aristas} & int n\'{u}mero total de aristas en el grafo. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 98 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_ae00d281b447cf12042269174e586fb8b}{\index{Cromosoma@{Cromosoma}!calcular\-Proporcion\-Clusters@{calcular\-Proporcion\-Clusters}}
+\index{calcular\-Proporcion\-Clusters@{calcular\-Proporcion\-Clusters}!Cromosoma@{Cromosoma}}
+\paragraph[{calcular\-Proporcion\-Clusters}]{\setlength{\rightskip}{0pt plus 5cm}void Cromosoma\-::calcular\-Proporcion\-Clusters (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_ae00d281b447cf12042269174e586fb8b}
+
+
+\hyperlink{class_cromosoma_ae00d281b447cf12042269174e586fb8b}{Cromosoma\-::calcular\-Proporcion\-Clusters} Calcula la proporci\'{o}n de {\itshape clusters}. Divide la cantidad de {\itshape clusters} actuales por la cantidad de {\itshape clusters} inicial. 
+
+
+
+Definición en la línea 120 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_a1d6c1609245c697ef2502b2da47e1375}{\index{Cromosoma@{Cromosoma}!get\-Calculo\-Modularidad@{get\-Calculo\-Modularidad}}
+\index{get\-Calculo\-Modularidad@{get\-Calculo\-Modularidad}!Cromosoma@{Cromosoma}}
+\paragraph[{get\-Calculo\-Modularidad}]{\setlength{\rightskip}{0pt plus 5cm}bool Cromosoma\-::get\-Calculo\-Modularidad (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_a1d6c1609245c697ef2502b2da47e1375}
+
+
+\hyperlink{class_cromosoma_a1d6c1609245c697ef2502b2da47e1375}{Cromosoma\-::get\-Calculo\-Modularidad} Retorna el booleano que representa si ya se ha realizado el c\'{a}lculo de la modularidad. 
+
+\begin{DoxyReturn}{Devuelve}
+bool calculo\-Modularidad. 
+\end{DoxyReturn}
+
+
+Definición en la línea 291 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_acd65433defe28a89eaadbd7d429be50b}{\index{Cromosoma@{Cromosoma}!get\-Cantidad\-Clusters\-Final@{get\-Cantidad\-Clusters\-Final}}
+\index{get\-Cantidad\-Clusters\-Final@{get\-Cantidad\-Clusters\-Final}!Cromosoma@{Cromosoma}}
+\paragraph[{get\-Cantidad\-Clusters\-Final}]{\setlength{\rightskip}{0pt plus 5cm}int Cromosoma\-::get\-Cantidad\-Clusters\-Final (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_acd65433defe28a89eaadbd7d429be50b}
+
+
+\hyperlink{class_cromosoma_acd65433defe28a89eaadbd7d429be50b}{Cromosoma\-::get\-Cantidad\-Clusters\-Final} Retorna la cantidad de {\itshape clusters} de la configuraci\'{o}n final de {\itshape clustering}. 
+
+\begin{DoxyReturn}{Devuelve}
+int cant\-Clusters\-Final. 
+\end{DoxyReturn}
+
+
+Definición en la línea 302 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_afcb14040e4bae7f1e267654270f5c0a0}{\index{Cromosoma@{Cromosoma}!get\-Configuracion\-Clustering@{get\-Configuracion\-Clustering}}
+\index{get\-Configuracion\-Clustering@{get\-Configuracion\-Clustering}!Cromosoma@{Cromosoma}}
+\paragraph[{get\-Configuracion\-Clustering}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ unordered\-\_\-set$<$ int $>$ $>$ Cromosoma\-::get\-Configuracion\-Clustering (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_afcb14040e4bae7f1e267654270f5c0a0}
+
+
+\hyperlink{class_cromosoma_afcb14040e4bae7f1e267654270f5c0a0}{Cromosoma\-::get\-Configuracion\-Clustering} Retorna la configuracin de {\itshape clustering} obtenida en el cromosoma. 
+
+\begin{DoxyReturn}{Devuelve}
+vector$<$unordered\-\_\-set$<$int$>$ $>$ que contiene la configuraci\'{o}n de los {\itshape clusters} en el formato de lista de adyacencia. 
+\end{DoxyReturn}
+
+
+Definición en la línea 280 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_a2939af9ae57532c5800a7d4cc7933095}{\index{Cromosoma@{Cromosoma}!get\-Modularidad@{get\-Modularidad}}
+\index{get\-Modularidad@{get\-Modularidad}!Cromosoma@{Cromosoma}}
+\paragraph[{get\-Modularidad}]{\setlength{\rightskip}{0pt plus 5cm}double Cromosoma\-::get\-Modularidad (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_a2939af9ae57532c5800a7d4cc7933095}
+
+
+\hyperlink{class_cromosoma_a2939af9ae57532c5800a7d4cc7933095}{Cromosoma\-::get\-Modularidad} Retorna modularidad del cromosoma. 
+
+\begin{DoxyReturn}{Devuelve}
+double con el valor de la modularidad, para la configuraci\'{o}n del cromosoma. 
+\end{DoxyReturn}
+
+
+Definición en la línea 191 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_a1ff8e03e985f2eccd5ac4bb2b2b09a43}{\index{Cromosoma@{Cromosoma}!get\-Proporcion\-Clusters@{get\-Proporcion\-Clusters}}
+\index{get\-Proporcion\-Clusters@{get\-Proporcion\-Clusters}!Cromosoma@{Cromosoma}}
+\paragraph[{get\-Proporcion\-Clusters}]{\setlength{\rightskip}{0pt plus 5cm}double Cromosoma\-::get\-Proporcion\-Clusters (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_a1ff8e03e985f2eccd5ac4bb2b2b09a43}
+
+
+\hyperlink{class_cromosoma_a1ff8e03e985f2eccd5ac4bb2b2b09a43}{Cromosoma\-::get\-Proporcion\-Clusters} Retorna la proporci\'{o}n de {\itshape clusters} respecto a la cantidad inicial. 
+
+\begin{DoxyReturn}{Devuelve}
+double con el valor de la proporci\'{o}n de cantidad de {\itshape clusters} finales respecto a la cantidad de {\itshape clusters} inicial. 
+\end{DoxyReturn}
+
+
+Definición en la línea 202 del archivo cromosoma.\-cpp.
+
+\hypertarget{class_cromosoma_ad559093928da2dedca134f097c1e08a0}{\index{Cromosoma@{Cromosoma}!mutar@{mutar}}
+\index{mutar@{mutar}!Cromosoma@{Cromosoma}}
+\paragraph[{mutar}]{\setlength{\rightskip}{0pt plus 5cm}void Cromosoma\-::mutar (
+\begin{DoxyParamCaption}
+\item[{int}]{nodos\-Mutar\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{clusters\-Mutar\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{class_cromosoma_ad559093928da2dedca134f097c1e08a0}
+
+
+\hyperlink{class_cromosoma_ad559093928da2dedca134f097c1e08a0}{Cromosoma\-::mutar} Cambia a {\itshape true} la pertencia del nodo, si el nodo a mutar no pertenec\'{\i}a al {\itshape cluster}, o a {\itshape false} en caso contrario. Cuando cambia a {\itshape false} la pertenencia del nodo; se verifica que el nodo pertenezca al menos a un {\itshape cluster}, sino se deja el cromosoma sin mutar. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em nodos\-Mutar} & arreglo de int que contiene los nodos que ser\'{a}n mutados. \\
+\hline
+{\em clusters\-Mutar} & arreglo de int que contiene los {\itshape clusters} que ser\'{a}n mutados. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 215 del archivo cromosoma.\-cpp.
+
+
+
+\subsubsection{Documentación de los datos miembro}
+\hypertarget{class_cromosoma_aa0725a35f0aff05db24fb9a34bc203c6}{\index{Cromosoma@{Cromosoma}!calculo\-Modularidad@{calculo\-Modularidad}}
+\index{calculo\-Modularidad@{calculo\-Modularidad}!Cromosoma@{Cromosoma}}
+\paragraph[{calculo\-Modularidad}]{\setlength{\rightskip}{0pt plus 5cm}bool Cromosoma\-::calculo\-Modularidad\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_aa0725a35f0aff05db24fb9a34bc203c6}
+
+
+Definición en la línea 26 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a52614c5344094ee5c517638e018a3706}{\index{Cromosoma@{Cromosoma}!cant\-Clusters\-Final@{cant\-Clusters\-Final}}
+\index{cant\-Clusters\-Final@{cant\-Clusters\-Final}!Cromosoma@{Cromosoma}}
+\paragraph[{cant\-Clusters\-Final}]{\setlength{\rightskip}{0pt plus 5cm}int Cromosoma\-::cant\-Clusters\-Final\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a52614c5344094ee5c517638e018a3706}
+
+
+Definición en la línea 30 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a3b705a43d31136065740f0e01ee6af0b}{\index{Cromosoma@{Cromosoma}!cant\-Clusters\-Inicial@{cant\-Clusters\-Inicial}}
+\index{cant\-Clusters\-Inicial@{cant\-Clusters\-Inicial}!Cromosoma@{Cromosoma}}
+\paragraph[{cant\-Clusters\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}int Cromosoma\-::cant\-Clusters\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a3b705a43d31136065740f0e01ee6af0b}
+
+
+Definición en la línea 29 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_aa72923b86f007d67f2ed7801af5b67a0}{\index{Cromosoma@{Cromosoma}!configuracion@{configuracion}}
+\index{configuracion@{configuracion}!Cromosoma@{Cromosoma}}
+\paragraph[{configuracion}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ unordered\-\_\-set$<$int$>$ $>$ Cromosoma\-::configuracion\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_aa72923b86f007d67f2ed7801af5b67a0}
+
+
+Definición en la línea 22 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a880fe27df3984b070a7b78e325df4508}{\index{Cromosoma@{Cromosoma}!matriz\-X@{matriz\-X}}
+\index{matriz\-X@{matriz\-X}!Cromosoma@{Cromosoma}}
+\paragraph[{matriz\-X}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$bool$>$ $>$ Cromosoma\-::matriz\-X\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a880fe27df3984b070a7b78e325df4508}
+
+
+Definición en la línea 21 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a71f2100afa1fc999c31ef6cbd581abb9}{\index{Cromosoma@{Cromosoma}!modularidad@{modularidad}}
+\index{modularidad@{modularidad}!Cromosoma@{Cromosoma}}
+\paragraph[{modularidad}]{\setlength{\rightskip}{0pt plus 5cm}double Cromosoma\-::modularidad\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a71f2100afa1fc999c31ef6cbd581abb9}
+
+
+Definición en la línea 24 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a4fca54673dbf02d203ba8e106233e333}{\index{Cromosoma@{Cromosoma}!mutar\-Dos\-Bits@{mutar\-Dos\-Bits}}
+\index{mutar\-Dos\-Bits@{mutar\-Dos\-Bits}!Cromosoma@{Cromosoma}}
+\paragraph[{mutar\-Dos\-Bits}]{\setlength{\rightskip}{0pt plus 5cm}bool Cromosoma\-::mutar\-Dos\-Bits\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a4fca54673dbf02d203ba8e106233e333}
+
+
+Definición en la línea 33 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a02471be3a2fd834be973bae8c2db42ac}{\index{Cromosoma@{Cromosoma}!nodos@{nodos}}
+\index{nodos@{nodos}!Cromosoma@{Cromosoma}}
+\paragraph[{nodos}]{\setlength{\rightskip}{0pt plus 5cm}int Cromosoma\-::nodos\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a02471be3a2fd834be973bae8c2db42ac}
+
+
+Definición en la línea 28 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_a7e433a89f92319f7064ac2604e7eb704}{\index{Cromosoma@{Cromosoma}!proporcion\-Clusters@{proporcion\-Clusters}}
+\index{proporcion\-Clusters@{proporcion\-Clusters}!Cromosoma@{Cromosoma}}
+\paragraph[{proporcion\-Clusters}]{\setlength{\rightskip}{0pt plus 5cm}float Cromosoma\-::proporcion\-Clusters\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_a7e433a89f92319f7064ac2604e7eb704}
+
+
+Definición en la línea 25 del archivo cromosoma.\-h.
+
+\hypertarget{class_cromosoma_af79cd411043a57f71a9c41b1a0f8fb9e}{\index{Cromosoma@{Cromosoma}!tamanio\-Clusters@{tamanio\-Clusters}}
+\index{tamanio\-Clusters@{tamanio\-Clusters}!Cromosoma@{Cromosoma}}
+\paragraph[{tamanio\-Clusters}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-vector\-\_\-t Cromosoma\-::tamanio\-Clusters\hspace{0.3cm}{\ttfamily [private]}}}\label{class_cromosoma_af79cd411043a57f71a9c41b1a0f8fb9e}
+
+
+Definición en la línea 31 del archivo cromosoma.\-h.
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\-:\begin{DoxyCompactItemize}
+\item 
+clustering/\hyperlink{cromosoma_8h}{cromosoma.\-h}\item 
+clustering/\hyperlink{cromosoma_8cpp}{cromosoma.\-cpp}\end{DoxyCompactItemize}

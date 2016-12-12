@@ -1,0 +1,26 @@
+var class_cromosoma =
+[
+    [ "Cromosoma", "class_cromosoma.html#a8367f3dd60c6af083aed533c69f17b29", null ],
+    [ "Cromosoma", "class_cromosoma.html#a73005200af7dfe43ba95b53d59530aef", null ],
+    [ "~Cromosoma", "class_cromosoma.html#a39310d043c187768ba83a1a9c921e966", null ],
+    [ "calcularFraccionAristasExternas", "class_cromosoma.html#adf593209a71231d494979b2ceb9a3f5b", null ],
+    [ "calcularFraccionAristasInternas", "class_cromosoma.html#abb12b97e13cc36306a4ec775a969968b", null ],
+    [ "calcularModularidad", "class_cromosoma.html#ac331434df88dfd7cdebee472381ff106", null ],
+    [ "calcularProporcionClusters", "class_cromosoma.html#ae00d281b447cf12042269174e586fb8b", null ],
+    [ "getCalculoModularidad", "class_cromosoma.html#a1d6c1609245c697ef2502b2da47e1375", null ],
+    [ "getCantidadClustersFinal", "class_cromosoma.html#acd65433defe28a89eaadbd7d429be50b", null ],
+    [ "getConfiguracionClustering", "class_cromosoma.html#afcb14040e4bae7f1e267654270f5c0a0", null ],
+    [ "getModularidad", "class_cromosoma.html#a2939af9ae57532c5800a7d4cc7933095", null ],
+    [ "getProporcionClusters", "class_cromosoma.html#a1ff8e03e985f2eccd5ac4bb2b2b09a43", null ],
+    [ "mutar", "class_cromosoma.html#ad559093928da2dedca134f097c1e08a0", null ],
+    [ "calculoModularidad", "class_cromosoma.html#aa0725a35f0aff05db24fb9a34bc203c6", null ],
+    [ "cantClustersFinal", "class_cromosoma.html#a52614c5344094ee5c517638e018a3706", null ],
+    [ "cantClustersInicial", "class_cromosoma.html#a3b705a43d31136065740f0e01ee6af0b", null ],
+    [ "configuracion", "class_cromosoma.html#aa72923b86f007d67f2ed7801af5b67a0", null ],
+    [ "matrizX", "class_cromosoma.html#a880fe27df3984b070a7b78e325df4508", null ],
+    [ "modularidad", "class_cromosoma.html#a71f2100afa1fc999c31ef6cbd581abb9", null ],
+    [ "mutarDosBits", "class_cromosoma.html#a4fca54673dbf02d203ba8e106233e333", null ],
+    [ "nodos", "class_cromosoma.html#a02471be3a2fd834be973bae8c2db42ac", null ],
+    [ "proporcionClusters", "class_cromosoma.html#a7e433a89f92319f7064ac2604e7eb704", null ],
+    [ "tamanioClusters", "class_cromosoma.html#af79cd411043a57f71a9c41b1a0f8fb9e", null ]
+];

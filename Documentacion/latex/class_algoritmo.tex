@@ -1,0 +1,515 @@
+\hypertarget{class_algoritmo}{\subsection{Referencia de la Clase Algoritmo}
+\label{class_algoritmo}\index{Algoritmo@{Algoritmo}}
+}
+
+
+{\ttfamily \#include $<$algoritmo.\-h$>$}
+
+\subsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}{Algoritmo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}{Algoritmo\-::\-Algoritmo()} Contructor por defecto. Inicializa un objeto \hyperlink{class_algoritmo}{Algoritmo}. \end{DoxyCompactList}\item 
+\hyperlink{class_algoritmo_ae43b195db4527bb14eb4be2343908730}{Algoritmo} (igraph\-\_\-t \&\hyperlink{class_algoritmo_a5bf75458f302256836f8c021c696b6d6}{grafo}, int \hyperlink{class_algoritmo_a8b600a2b305e168f34896450a86330de}{nodos}, int \hyperlink{class_algoritmo_aebd547b83ffc0fc84727b4d32816e6a3}{aristas}, int \hyperlink{class_algoritmo_a5b2603327a6c450a76a6852ac26fe7a2}{individuos}, int \hyperlink{class_algoritmo_a76362b4a8f794e6206dcbeec3fe7a628}{generaciones}, double \hyperlink{class_algoritmo_a8423d3ea20137a281055f4b04f1d5492}{porcentaje\-Mating\-Pool}, bool \hyperlink{class_algoritmo_a128d4c2bd8d16eb3cb94f29f75ce33de}{mutar\-Dos\-Bits})
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}{Algoritmo\-::\-Algoritmo} Constructor. Inicializa un objeto \hyperlink{class_algoritmo}{Algoritmo}. \end{DoxyCompactList}\item 
+\hyperlink{class_algoritmo_a39b97924ace4107969fb6702b8ec11b7}{$\sim$\-Algoritmo} ()
+\item 
+void \hyperlink{class_algoritmo_a2af7a7e2b849e950a40edb29dbe48ee1}{algoritmo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a2af7a7e2b849e950a40edb29dbe48ee1}{Algoritmo\-::algoritmo} Se realiza primero el {\itshape clustering} haciendo uso del algoritmo de Newman. Paso siguiente se inicializa la poblaci\'{o}n de cromosomas garantizando que tengan solapamiento entre {\itshape clusters}. Luego de tener la poblaci\'{o}n inicial, se realiza la selecci\'{o}n de un porcentaje de cromosomas, usando la modularidad como funci\'{o}n de aptitud. Una vez se carga el {\itshape mating pool} con los cromosomas seleccionados se realiza la reproducci\'{o}n, usando como operador la mutaci\'{o}n.\par
+ Finalmente se selecciona como soluci\'{o}n el cromosoma que obtenga la mayor modularidad. \end{DoxyCompactList}\item 
+double \hyperlink{class_algoritmo_ab547948993b374fb0721c1f7ec46ded8}{get\-Modularidad} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_ab547948993b374fb0721c1f7ec46ded8}{Algoritmo\-::get\-Modularidad} Retorna la modularidad final obtenida con el mejor cromosoma encontrado. \end{DoxyCompactList}\item 
+vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \hyperlink{class_algoritmo_a02ba46efa94c279b129c92365a6a369c}{get\-Configuracion\-Final} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a02ba46efa94c279b129c92365a6a369c}{Algoritmo\-::get\-Configuracion\-Final} Retorna la configuraci\'{o}n final del mejor cromosoma encontrado. \end{DoxyCompactList}\item 
+int \hyperlink{class_algoritmo_a58bbe61d845ba28704b4b44e74f89b6c}{get\-Cant\-Cambios} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a58bbe61d845ba28704b4b44e74f89b6c}{Algoritmo\-::get\-Cant\-Cambios} Retorna cuantos cambios se hicieron a la referencia del mejor cromosoma al final del algoritmo (Para elegir la soluci\'{o}n). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_algoritmo_a31e6f36a2b008ec1b777f2bea78cdcb9}{inicializar\-Poblacion} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a31e6f36a2b008ec1b777f2bea78cdcb9}{Algoritmo\-::inicializar\-Poblacion} Se crean los individuos iniciales de cromosomas, se usa la configuraci\'{o}n de {\itshape clustering} retornada por Newman, y se garantiza que todos los cromosomas iniciales tengan solapamiento en un nodo. \end{DoxyCompactList}\item 
+void \hyperlink{class_algoritmo_a0ea4f57c37e4a6fc36a189b1fb72f2f5}{seleccionar} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a0ea4f57c37e4a6fc36a189b1fb72f2f5}{Algoritmo\-::seleccionar} La selecci\'{o}n se realiza con la t\'{e}cnica torneo, se seleccionan dos cromosomas al azar, de cada uno se obtiene la modularidad, se elige el cromosoma con mayor modularidad. Si la modularidad llegara a ser igual en ambos cromosomas, se elige el cromosoma que tenga mayor porcentaje de {\itshape clusters} respecto a la cantidad de {\itshape clusters} encontrada al inicio con el algoritmo de Newman. \par
+ \end{DoxyCompactList}\item 
+void \hyperlink{class_algoritmo_ac8d6cb1e51861008c6d50ab9e8b3666a}{reproducir} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_ac8d6cb1e51861008c6d50ab9e8b3666a}{Algoritmo\-::reproducir} Para la reproducci\'{o}n, se usa la mutaci\'{o}n sobre un cromosoma, esta puede darse de dos formas, seg\'{u}n el se halla definido. Una es mutar un solo {\itshape bit} de la matriz X, y la otra mutar dos {\itshape bits} de la matriz X. Si el cromosoma es el indicado por el indice del mejor cromosoma en el mating pool, este no se muta y se pasa directo a la siguiente generaci\'{o}n. \end{DoxyCompactList}\item 
+void \hyperlink{class_algoritmo_a718fe5e18f1b887a7c10604935664402}{clustering\-Newman} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a718fe5e18f1b887a7c10604935664402}{Algoritmo\-::clustering\-Newman} Realiza el primer {\itshape clustering} haciendo uso del algoritmo propuesto por Newman en {\bfseries  Finding community structure in very large networks} puede ver detalles en \href{http://igraph.sourceforge.net/doc/html/ch22s06.html}{\tt http\-://igraph.\-sourceforge.\-net/doc/html/ch22s06.\-html} y \href{http://www.arxiv.org/abs/cond-mat/0408187}{\tt http\-://www.\-arxiv.\-org/abs/cond-\/mat/0408187 }. \end{DoxyCompactList}\item 
+void \hyperlink{class_algoritmo_a587697ecb58bbd4f7a5bfe7188f681cb}{inicializar\-Matriz\-X} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a587697ecb58bbd4f7a5bfe7188f681cb}{Algoritmo\-::inicializar\-Matriz\-X} Inicializa la matriz de membresia (binaria), tal y como el algoritmo de Newma configur\'{o} los {\itshape clusters}. La matriz tiene la forma descrita en el trabajo \href{http://dl.acm.org/citation.cfm?id=1339693}{\tt A Extraction Method of Overlapping Cluster Based on Network Structure Analysis} Las filas corresponden a los {\itshape clusters} y las columnas a los nodos. \end{DoxyCompactList}\item 
+void \hyperlink{class_algoritmo_a3fd78d6f0173d1f25ea0fc6437fa151d}{inicializar\-Configuracion\-Inicial} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a3fd78d6f0173d1f25ea0fc6437fa151d}{Algoritmo\-::inicializar\-Configuracion\-Inicial} Inicializa la configuraci\'{o}n incial de {\itshape clustering} en el formato de lista de adyacencia. \end{DoxyCompactList}\item 
+void \hyperlink{class_algoritmo_a4be398fd15aaf32dc7b279ebc5ea90d7}{construir\-Lista\-Adyacencia} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_algoritmo_a4be398fd15aaf32dc7b279ebc5ea90d7}{Algoritmo\-::construir\-Lista\-Adyacencia} Crea la lista de adyacencia del grafo, la cual corresponde a una estructura de dato mucho m\'{a}s eficiente que la matriz de adyacencia. Se usa como estructura de dato vector$<$unordered\-\_\-set$<$int$>$$>$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_algoritmo_a8b600a2b305e168f34896450a86330de}{nodos}
+\item 
+int \hyperlink{class_algoritmo_aebd547b83ffc0fc84727b4d32816e6a3}{aristas}
+\item 
+int \hyperlink{class_algoritmo_a5b2603327a6c450a76a6852ac26fe7a2}{individuos}
+\item 
+int \hyperlink{class_algoritmo_a76362b4a8f794e6206dcbeec3fe7a628}{generaciones}
+\item 
+\hyperlink{class_cromosoma}{Cromosoma} $\ast$$\ast$ \hyperlink{class_algoritmo_a5f6b839180abb11469b6e33cf2dd2871}{poblacion}
+\item 
+\hyperlink{class_cromosoma}{Cromosoma} $\ast$$\ast$ \hyperlink{class_algoritmo_a9c6c102ca50a3d69052d3c06ef19725c}{mating\-Pool}
+\item 
+int \hyperlink{class_algoritmo_aeda95cdb4165c41656c1a3e2e157eb51}{mejor\-Indice\-Poblacion}
+\item 
+double \hyperlink{class_algoritmo_a282ec70d907d6923b59c91e425ad493f}{mejor\-Modularidad}
+\item 
+\hyperlink{class_cromosoma}{Cromosoma} $\ast$ \hyperlink{class_algoritmo_a2bb44f3dd4096ece8959ed32b05b5147}{mejor\-Cromosoma}
+\item 
+int \hyperlink{class_algoritmo_a0c34d9a4f7a55fc4afa538dd477ac633}{tam\-Mating\-Pool}
+\item 
+double \hyperlink{class_algoritmo_a8423d3ea20137a281055f4b04f1d5492}{porcentaje\-Mating\-Pool}
+\item 
+bool \hyperlink{class_algoritmo_a128d4c2bd8d16eb3cb94f29f75ce33de}{mutar\-Dos\-Bits}
+\item 
+igraph\-\_\-t \hyperlink{class_algoritmo_a5bf75458f302256836f8c021c696b6d6}{grafo}
+\item 
+double \hyperlink{class_algoritmo_a2aff6cb6814150fe6abdf5a3458765f8}{modularidad\-Inicial}
+\item 
+double \hyperlink{class_algoritmo_ad31bad8b81588053130542bc3ffb3d06}{modularidad\-Final}
+\item 
+int \hyperlink{class_algoritmo_a740325de9f0e126452afbf5bce34bbc7}{cant\-Clusters\-Inicial}
+\item 
+int \hyperlink{class_algoritmo_a4b3baaedefed9ee655a1d1819b78a5df}{cant\-Cambios}
+\item 
+igraph\-\_\-vector\-\_\-t \hyperlink{class_algoritmo_aa4b30738a2e2676d8375ad8a465067a7}{tamanio\-Clusters\-Inicial}
+\item 
+igraph\-\_\-vector\-\_\-t \hyperlink{class_algoritmo_ada55baff2fa6f00d257d2af78ba10b18}{membresia\-Inicial}
+\item 
+vector$<$ vector$<$ bool $>$ $>$ \hyperlink{class_algoritmo_a2d2c192209608ebd713ccdd2460a1778}{matriz\-X\-Inicial}
+\item 
+vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \hyperlink{class_algoritmo_a12d991b910cdf5383a53b1b7c12bad40}{configuracion\-Inicial}
+\item 
+vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \hyperlink{class_algoritmo_a93ba06ec3089ad3b17037b2432136477}{lista\-Adyacencia}
+\item 
+vector$<$ unordered\-\_\-set$<$ int $>$ $>$ \hyperlink{class_algoritmo_ac1129d6d9bc8bc6e731b0ad24ecb799a}{configuracion\-Final}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Descripción detallada}
+
+
+Definición en la línea 19 del archivo algoritmo.\-h.
+
+
+
+\subsubsection{Documentación del constructor y destructor}
+\hypertarget{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}{\index{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}}
+\index{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}}
+\paragraph[{Algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}Algoritmo\-::\-Algoritmo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}
+
+
+\hyperlink{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}{Algoritmo\-::\-Algoritmo()} Contructor por defecto. Inicializa un objeto \hyperlink{class_algoritmo}{Algoritmo}. 
+
+
+
+Definición en la línea 20 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_ae43b195db4527bb14eb4be2343908730}{\index{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}}
+\index{Algoritmo@{Algoritmo}!Algoritmo@{Algoritmo}}
+\paragraph[{Algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}Algoritmo\-::\-Algoritmo (
+\begin{DoxyParamCaption}
+\item[{igraph\-\_\-t \&}]{grafo, }
+\item[{int}]{nodos, }
+\item[{int}]{aristas, }
+\item[{int}]{individuos, }
+\item[{int}]{generaciones, }
+\item[{double}]{porcentaje\-Mating\-Pool, }
+\item[{bool}]{mutar\-Dos\-Bits}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_ae43b195db4527bb14eb4be2343908730}
+
+
+\hyperlink{class_algoritmo_a19b6e2a6788c748669bf22507198c00d}{Algoritmo\-::\-Algoritmo} Constructor. Inicializa un objeto \hyperlink{class_algoritmo}{Algoritmo}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em grafo} & igraph\-\_\-t\& grafo al cual se le realizar\'{a} el agrupamiento. \\
+\hline
+{\em nodos} & int con el n\'{u}mero total de nodos del grafo. \\
+\hline
+{\em aristas} & int con el n\'{u}mero total de aristas del grafo. \\
+\hline
+{\em individuos} & int cantidad de individuos para la poblaci\'{o}n inicial. \\
+\hline
+{\em generaciones} & int n\'{u}mero de generaciones para iterar el algoritmo. \\
+\hline
+{\em porcentaje\-Mating\-Pool} & double con el porcentaje de la poblaci\'{o}n inicial que se llevar\'{a} al {\itshape mating pool} \\
+\hline
+{\em mutar\-Dos\-Bits} & bool activa mutar sobre dos bits de la matriz de membresia, sino se muta sobre un s\'{o}lo bit. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 36 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a39b97924ace4107969fb6702b8ec11b7}{\index{Algoritmo@{Algoritmo}!$\sim$\-Algoritmo@{$\sim$\-Algoritmo}}
+\index{$\sim$\-Algoritmo@{$\sim$\-Algoritmo}!Algoritmo@{Algoritmo}}
+\paragraph[{$\sim$\-Algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}Algoritmo\-::$\sim$\-Algoritmo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_a39b97924ace4107969fb6702b8ec11b7}
+
+
+Definición en la línea 64 del archivo algoritmo.\-cpp.
+
+
+
+\subsubsection{Documentación de las funciones miembro}
+\hypertarget{class_algoritmo_a2af7a7e2b849e950a40edb29dbe48ee1}{\index{Algoritmo@{Algoritmo}!algoritmo@{algoritmo}}
+\index{algoritmo@{algoritmo}!Algoritmo@{Algoritmo}}
+\paragraph[{algoritmo}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::algoritmo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_a2af7a7e2b849e950a40edb29dbe48ee1}
+
+
+\hyperlink{class_algoritmo_a2af7a7e2b849e950a40edb29dbe48ee1}{Algoritmo\-::algoritmo} Se realiza primero el {\itshape clustering} haciendo uso del algoritmo de Newman. Paso siguiente se inicializa la poblaci\'{o}n de cromosomas garantizando que tengan solapamiento entre {\itshape clusters}. Luego de tener la poblaci\'{o}n inicial, se realiza la selecci\'{o}n de un porcentaje de cromosomas, usando la modularidad como funci\'{o}n de aptitud. Una vez se carga el {\itshape mating pool} con los cromosomas seleccionados se realiza la reproducci\'{o}n, usando como operador la mutaci\'{o}n.\par
+ Finalmente se selecciona como soluci\'{o}n el cromosoma que obtenga la mayor modularidad. 
+
+
+
+Definición en la línea 102 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a718fe5e18f1b887a7c10604935664402}{\index{Algoritmo@{Algoritmo}!clustering\-Newman@{clustering\-Newman}}
+\index{clustering\-Newman@{clustering\-Newman}!Algoritmo@{Algoritmo}}
+\paragraph[{clustering\-Newman}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::clustering\-Newman (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a718fe5e18f1b887a7c10604935664402}
+
+
+\hyperlink{class_algoritmo_a718fe5e18f1b887a7c10604935664402}{Algoritmo\-::clustering\-Newman} Realiza el primer {\itshape clustering} haciendo uso del algoritmo propuesto por Newman en {\bfseries  Finding community structure in very large networks} puede ver detalles en \href{http://igraph.sourceforge.net/doc/html/ch22s06.html}{\tt http\-://igraph.\-sourceforge.\-net/doc/html/ch22s06.\-html} y \href{http://www.arxiv.org/abs/cond-mat/0408187}{\tt http\-://www.\-arxiv.\-org/abs/cond-\/mat/0408187 }. 
+
+
+
+Definición en la línea 165 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a4be398fd15aaf32dc7b279ebc5ea90d7}{\index{Algoritmo@{Algoritmo}!construir\-Lista\-Adyacencia@{construir\-Lista\-Adyacencia}}
+\index{construir\-Lista\-Adyacencia@{construir\-Lista\-Adyacencia}!Algoritmo@{Algoritmo}}
+\paragraph[{construir\-Lista\-Adyacencia}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::construir\-Lista\-Adyacencia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a4be398fd15aaf32dc7b279ebc5ea90d7}
+
+
+\hyperlink{class_algoritmo_a4be398fd15aaf32dc7b279ebc5ea90d7}{Algoritmo\-::construir\-Lista\-Adyacencia} Crea la lista de adyacencia del grafo, la cual corresponde a una estructura de dato mucho m\'{a}s eficiente que la matriz de adyacencia. Se usa como estructura de dato vector$<$unordered\-\_\-set$<$int$>$$>$. 
+
+
+
+Definición en la línea 534 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a58bbe61d845ba28704b4b44e74f89b6c}{\index{Algoritmo@{Algoritmo}!get\-Cant\-Cambios@{get\-Cant\-Cambios}}
+\index{get\-Cant\-Cambios@{get\-Cant\-Cambios}!Algoritmo@{Algoritmo}}
+\paragraph[{get\-Cant\-Cambios}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::get\-Cant\-Cambios (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_a58bbe61d845ba28704b4b44e74f89b6c}
+
+
+\hyperlink{class_algoritmo_a58bbe61d845ba28704b4b44e74f89b6c}{Algoritmo\-::get\-Cant\-Cambios} Retorna cuantos cambios se hicieron a la referencia del mejor cromosoma al final del algoritmo (Para elegir la soluci\'{o}n). 
+
+\begin{DoxyReturn}{Devuelve}
+int cant\-Cambios 
+\end{DoxyReturn}
+
+
+Definición en la línea 218 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a02ba46efa94c279b129c92365a6a369c}{\index{Algoritmo@{Algoritmo}!get\-Configuracion\-Final@{get\-Configuracion\-Final}}
+\index{get\-Configuracion\-Final@{get\-Configuracion\-Final}!Algoritmo@{Algoritmo}}
+\paragraph[{get\-Configuracion\-Final}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ unordered\-\_\-set$<$ int $>$ $>$ Algoritmo\-::get\-Configuracion\-Final (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_a02ba46efa94c279b129c92365a6a369c}
+
+
+\hyperlink{class_algoritmo_a02ba46efa94c279b129c92365a6a369c}{Algoritmo\-::get\-Configuracion\-Final} Retorna la configuraci\'{o}n final del mejor cromosoma encontrado. 
+
+\begin{DoxyReturn}{Devuelve}
+vector$<$unordered\-\_\-set$<$int$>$ $>$ con la configuraci\'{o}n final. 
+\end{DoxyReturn}
+
+
+Definición en la línea 208 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_ab547948993b374fb0721c1f7ec46ded8}{\index{Algoritmo@{Algoritmo}!get\-Modularidad@{get\-Modularidad}}
+\index{get\-Modularidad@{get\-Modularidad}!Algoritmo@{Algoritmo}}
+\paragraph[{get\-Modularidad}]{\setlength{\rightskip}{0pt plus 5cm}double Algoritmo\-::get\-Modularidad (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_algoritmo_ab547948993b374fb0721c1f7ec46ded8}
+
+
+\hyperlink{class_algoritmo_ab547948993b374fb0721c1f7ec46ded8}{Algoritmo\-::get\-Modularidad} Retorna la modularidad final obtenida con el mejor cromosoma encontrado. 
+
+\begin{DoxyReturn}{Devuelve}
+double con la modularidad final. 
+\end{DoxyReturn}
+
+
+Definición en la línea 198 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a3fd78d6f0173d1f25ea0fc6437fa151d}{\index{Algoritmo@{Algoritmo}!inicializar\-Configuracion\-Inicial@{inicializar\-Configuracion\-Inicial}}
+\index{inicializar\-Configuracion\-Inicial@{inicializar\-Configuracion\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{inicializar\-Configuracion\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::inicializar\-Configuracion\-Inicial (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a3fd78d6f0173d1f25ea0fc6437fa151d}
+
+
+\hyperlink{class_algoritmo_a3fd78d6f0173d1f25ea0fc6437fa151d}{Algoritmo\-::inicializar\-Configuracion\-Inicial} Inicializa la configuraci\'{o}n incial de {\itshape clustering} en el formato de lista de adyacencia. 
+
+
+
+Definición en la línea 500 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a587697ecb58bbd4f7a5bfe7188f681cb}{\index{Algoritmo@{Algoritmo}!inicializar\-Matriz\-X@{inicializar\-Matriz\-X}}
+\index{inicializar\-Matriz\-X@{inicializar\-Matriz\-X}!Algoritmo@{Algoritmo}}
+\paragraph[{inicializar\-Matriz\-X}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::inicializar\-Matriz\-X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a587697ecb58bbd4f7a5bfe7188f681cb}
+
+
+\hyperlink{class_algoritmo_a587697ecb58bbd4f7a5bfe7188f681cb}{Algoritmo\-::inicializar\-Matriz\-X} Inicializa la matriz de membresia (binaria), tal y como el algoritmo de Newma configur\'{o} los {\itshape clusters}. La matriz tiene la forma descrita en el trabajo \href{http://dl.acm.org/citation.cfm?id=1339693}{\tt A Extraction Method of Overlapping Cluster Based on Network Structure Analysis} Las filas corresponden a los {\itshape clusters} y las columnas a los nodos. 
+
+
+
+Definición en la línea 472 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a31e6f36a2b008ec1b777f2bea78cdcb9}{\index{Algoritmo@{Algoritmo}!inicializar\-Poblacion@{inicializar\-Poblacion}}
+\index{inicializar\-Poblacion@{inicializar\-Poblacion}!Algoritmo@{Algoritmo}}
+\paragraph[{inicializar\-Poblacion}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::inicializar\-Poblacion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a31e6f36a2b008ec1b777f2bea78cdcb9}
+
+
+\hyperlink{class_algoritmo_a31e6f36a2b008ec1b777f2bea78cdcb9}{Algoritmo\-::inicializar\-Poblacion} Se crean los individuos iniciales de cromosomas, se usa la configuraci\'{o}n de {\itshape clustering} retornada por Newman, y se garantiza que todos los cromosomas iniciales tengan solapamiento en un nodo. 
+
+
+
+Definición en la línea 229 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_ac8d6cb1e51861008c6d50ab9e8b3666a}{\index{Algoritmo@{Algoritmo}!reproducir@{reproducir}}
+\index{reproducir@{reproducir}!Algoritmo@{Algoritmo}}
+\paragraph[{reproducir}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::reproducir (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_ac8d6cb1e51861008c6d50ab9e8b3666a}
+
+
+\hyperlink{class_algoritmo_ac8d6cb1e51861008c6d50ab9e8b3666a}{Algoritmo\-::reproducir} Para la reproducci\'{o}n, se usa la mutaci\'{o}n sobre un cromosoma, esta puede darse de dos formas, seg\'{u}n el se halla definido. Una es mutar un solo {\itshape bit} de la matriz X, y la otra mutar dos {\itshape bits} de la matriz X. Si el cromosoma es el indicado por el indice del mejor cromosoma en el mating pool, este no se muta y se pasa directo a la siguiente generaci\'{o}n. 
+
+
+
+Definición en la línea 402 del archivo algoritmo.\-cpp.
+
+\hypertarget{class_algoritmo_a0ea4f57c37e4a6fc36a189b1fb72f2f5}{\index{Algoritmo@{Algoritmo}!seleccionar@{seleccionar}}
+\index{seleccionar@{seleccionar}!Algoritmo@{Algoritmo}}
+\paragraph[{seleccionar}]{\setlength{\rightskip}{0pt plus 5cm}void Algoritmo\-::seleccionar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a0ea4f57c37e4a6fc36a189b1fb72f2f5}
+
+
+\hyperlink{class_algoritmo_a0ea4f57c37e4a6fc36a189b1fb72f2f5}{Algoritmo\-::seleccionar} La selecci\'{o}n se realiza con la t\'{e}cnica torneo, se seleccionan dos cromosomas al azar, de cada uno se obtiene la modularidad, se elige el cromosoma con mayor modularidad. Si la modularidad llegara a ser igual en ambos cromosomas, se elige el cromosoma que tenga mayor porcentaje de {\itshape clusters} respecto a la cantidad de {\itshape clusters} encontrada al inicio con el algoritmo de Newman. \par
+ 
+
+Adem\'{a}s se guarda el indice del cromosoma en toda la poblaci\'{o}n y que halla sido elegido para el {\itshape mating pool} y que sea el cromosoma con la mayor modularidad obtenida en el proceso. 
+
+Definición en la línea 309 del archivo algoritmo.\-cpp.
+
+
+
+\subsubsection{Documentación de los datos miembro}
+\hypertarget{class_algoritmo_aebd547b83ffc0fc84727b4d32816e6a3}{\index{Algoritmo@{Algoritmo}!aristas@{aristas}}
+\index{aristas@{aristas}!Algoritmo@{Algoritmo}}
+\paragraph[{aristas}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::aristas\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_aebd547b83ffc0fc84727b4d32816e6a3}
+
+
+Definición en la línea 23 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a4b3baaedefed9ee655a1d1819b78a5df}{\index{Algoritmo@{Algoritmo}!cant\-Cambios@{cant\-Cambios}}
+\index{cant\-Cambios@{cant\-Cambios}!Algoritmo@{Algoritmo}}
+\paragraph[{cant\-Cambios}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::cant\-Cambios\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a4b3baaedefed9ee655a1d1819b78a5df}
+
+
+Definición en la línea 44 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a740325de9f0e126452afbf5bce34bbc7}{\index{Algoritmo@{Algoritmo}!cant\-Clusters\-Inicial@{cant\-Clusters\-Inicial}}
+\index{cant\-Clusters\-Inicial@{cant\-Clusters\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{cant\-Clusters\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::cant\-Clusters\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a740325de9f0e126452afbf5bce34bbc7}
+
+
+Definición en la línea 43 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_ac1129d6d9bc8bc6e731b0ad24ecb799a}{\index{Algoritmo@{Algoritmo}!configuracion\-Final@{configuracion\-Final}}
+\index{configuracion\-Final@{configuracion\-Final}!Algoritmo@{Algoritmo}}
+\paragraph[{configuracion\-Final}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$unordered\-\_\-set$<$int$>$ $>$ Algoritmo\-::configuracion\-Final\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_ac1129d6d9bc8bc6e731b0ad24ecb799a}
+
+
+Definición en la línea 51 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a12d991b910cdf5383a53b1b7c12bad40}{\index{Algoritmo@{Algoritmo}!configuracion\-Inicial@{configuracion\-Inicial}}
+\index{configuracion\-Inicial@{configuracion\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{configuracion\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$unordered\-\_\-set$<$int$>$ $>$ Algoritmo\-::configuracion\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a12d991b910cdf5383a53b1b7c12bad40}
+
+
+Definición en la línea 49 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a76362b4a8f794e6206dcbeec3fe7a628}{\index{Algoritmo@{Algoritmo}!generaciones@{generaciones}}
+\index{generaciones@{generaciones}!Algoritmo@{Algoritmo}}
+\paragraph[{generaciones}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::generaciones\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a76362b4a8f794e6206dcbeec3fe7a628}
+
+
+Definición en la línea 26 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a5bf75458f302256836f8c021c696b6d6}{\index{Algoritmo@{Algoritmo}!grafo@{grafo}}
+\index{grafo@{grafo}!Algoritmo@{Algoritmo}}
+\paragraph[{grafo}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-t Algoritmo\-::grafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a5bf75458f302256836f8c021c696b6d6}
+
+
+Definición en la línea 39 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a5b2603327a6c450a76a6852ac26fe7a2}{\index{Algoritmo@{Algoritmo}!individuos@{individuos}}
+\index{individuos@{individuos}!Algoritmo@{Algoritmo}}
+\paragraph[{individuos}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::individuos\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a5b2603327a6c450a76a6852ac26fe7a2}
+
+
+Definición en la línea 25 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a93ba06ec3089ad3b17037b2432136477}{\index{Algoritmo@{Algoritmo}!lista\-Adyacencia@{lista\-Adyacencia}}
+\index{lista\-Adyacencia@{lista\-Adyacencia}!Algoritmo@{Algoritmo}}
+\paragraph[{lista\-Adyacencia}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$unordered\-\_\-set$<$int$>$ $>$ Algoritmo\-::lista\-Adyacencia\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a93ba06ec3089ad3b17037b2432136477}
+
+
+Definición en la línea 50 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a9c6c102ca50a3d69052d3c06ef19725c}{\index{Algoritmo@{Algoritmo}!mating\-Pool@{mating\-Pool}}
+\index{mating\-Pool@{mating\-Pool}!Algoritmo@{Algoritmo}}
+\paragraph[{mating\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Cromosoma}$\ast$$\ast$ Algoritmo\-::mating\-Pool\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a9c6c102ca50a3d69052d3c06ef19725c}
+
+
+Definición en la línea 29 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a2d2c192209608ebd713ccdd2460a1778}{\index{Algoritmo@{Algoritmo}!matriz\-X\-Inicial@{matriz\-X\-Inicial}}
+\index{matriz\-X\-Inicial@{matriz\-X\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{matriz\-X\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$bool$>$ $>$ Algoritmo\-::matriz\-X\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a2d2c192209608ebd713ccdd2460a1778}
+
+
+Definición en la línea 48 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a2bb44f3dd4096ece8959ed32b05b5147}{\index{Algoritmo@{Algoritmo}!mejor\-Cromosoma@{mejor\-Cromosoma}}
+\index{mejor\-Cromosoma@{mejor\-Cromosoma}!Algoritmo@{Algoritmo}}
+\paragraph[{mejor\-Cromosoma}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Cromosoma}$\ast$ Algoritmo\-::mejor\-Cromosoma\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a2bb44f3dd4096ece8959ed32b05b5147}
+
+
+Definición en la línea 33 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_aeda95cdb4165c41656c1a3e2e157eb51}{\index{Algoritmo@{Algoritmo}!mejor\-Indice\-Poblacion@{mejor\-Indice\-Poblacion}}
+\index{mejor\-Indice\-Poblacion@{mejor\-Indice\-Poblacion}!Algoritmo@{Algoritmo}}
+\paragraph[{mejor\-Indice\-Poblacion}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::mejor\-Indice\-Poblacion\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_aeda95cdb4165c41656c1a3e2e157eb51}
+
+
+Definición en la línea 31 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a282ec70d907d6923b59c91e425ad493f}{\index{Algoritmo@{Algoritmo}!mejor\-Modularidad@{mejor\-Modularidad}}
+\index{mejor\-Modularidad@{mejor\-Modularidad}!Algoritmo@{Algoritmo}}
+\paragraph[{mejor\-Modularidad}]{\setlength{\rightskip}{0pt plus 5cm}double Algoritmo\-::mejor\-Modularidad\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a282ec70d907d6923b59c91e425ad493f}
+
+
+Definición en la línea 32 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_ada55baff2fa6f00d257d2af78ba10b18}{\index{Algoritmo@{Algoritmo}!membresia\-Inicial@{membresia\-Inicial}}
+\index{membresia\-Inicial@{membresia\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{membresia\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-vector\-\_\-t Algoritmo\-::membresia\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_ada55baff2fa6f00d257d2af78ba10b18}
+
+
+Definición en la línea 46 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_ad31bad8b81588053130542bc3ffb3d06}{\index{Algoritmo@{Algoritmo}!modularidad\-Final@{modularidad\-Final}}
+\index{modularidad\-Final@{modularidad\-Final}!Algoritmo@{Algoritmo}}
+\paragraph[{modularidad\-Final}]{\setlength{\rightskip}{0pt plus 5cm}double Algoritmo\-::modularidad\-Final\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_ad31bad8b81588053130542bc3ffb3d06}
+
+
+Definición en la línea 42 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a2aff6cb6814150fe6abdf5a3458765f8}{\index{Algoritmo@{Algoritmo}!modularidad\-Inicial@{modularidad\-Inicial}}
+\index{modularidad\-Inicial@{modularidad\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{modularidad\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}double Algoritmo\-::modularidad\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a2aff6cb6814150fe6abdf5a3458765f8}
+
+
+Definición en la línea 41 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a128d4c2bd8d16eb3cb94f29f75ce33de}{\index{Algoritmo@{Algoritmo}!mutar\-Dos\-Bits@{mutar\-Dos\-Bits}}
+\index{mutar\-Dos\-Bits@{mutar\-Dos\-Bits}!Algoritmo@{Algoritmo}}
+\paragraph[{mutar\-Dos\-Bits}]{\setlength{\rightskip}{0pt plus 5cm}bool Algoritmo\-::mutar\-Dos\-Bits\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a128d4c2bd8d16eb3cb94f29f75ce33de}
+
+
+Definición en la línea 37 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a8b600a2b305e168f34896450a86330de}{\index{Algoritmo@{Algoritmo}!nodos@{nodos}}
+\index{nodos@{nodos}!Algoritmo@{Algoritmo}}
+\paragraph[{nodos}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::nodos\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a8b600a2b305e168f34896450a86330de}
+
+
+Definición en la línea 22 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a5f6b839180abb11469b6e33cf2dd2871}{\index{Algoritmo@{Algoritmo}!poblacion@{poblacion}}
+\index{poblacion@{poblacion}!Algoritmo@{Algoritmo}}
+\paragraph[{poblacion}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Cromosoma}$\ast$$\ast$ Algoritmo\-::poblacion\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a5f6b839180abb11469b6e33cf2dd2871}
+
+
+Definición en la línea 28 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a8423d3ea20137a281055f4b04f1d5492}{\index{Algoritmo@{Algoritmo}!porcentaje\-Mating\-Pool@{porcentaje\-Mating\-Pool}}
+\index{porcentaje\-Mating\-Pool@{porcentaje\-Mating\-Pool}!Algoritmo@{Algoritmo}}
+\paragraph[{porcentaje\-Mating\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}double Algoritmo\-::porcentaje\-Mating\-Pool\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a8423d3ea20137a281055f4b04f1d5492}
+
+
+Definición en la línea 36 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_aa4b30738a2e2676d8375ad8a465067a7}{\index{Algoritmo@{Algoritmo}!tamanio\-Clusters\-Inicial@{tamanio\-Clusters\-Inicial}}
+\index{tamanio\-Clusters\-Inicial@{tamanio\-Clusters\-Inicial}!Algoritmo@{Algoritmo}}
+\paragraph[{tamanio\-Clusters\-Inicial}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-vector\-\_\-t Algoritmo\-::tamanio\-Clusters\-Inicial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_aa4b30738a2e2676d8375ad8a465067a7}
+
+
+Definición en la línea 45 del archivo algoritmo.\-h.
+
+\hypertarget{class_algoritmo_a0c34d9a4f7a55fc4afa538dd477ac633}{\index{Algoritmo@{Algoritmo}!tam\-Mating\-Pool@{tam\-Mating\-Pool}}
+\index{tam\-Mating\-Pool@{tam\-Mating\-Pool}!Algoritmo@{Algoritmo}}
+\paragraph[{tam\-Mating\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}int Algoritmo\-::tam\-Mating\-Pool\hspace{0.3cm}{\ttfamily [private]}}}\label{class_algoritmo_a0c34d9a4f7a55fc4afa538dd477ac633}
+
+
+Definición en la línea 35 del archivo algoritmo.\-h.
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\-:\begin{DoxyCompactItemize}
+\item 
+clustering/\hyperlink{algoritmo_8h}{algoritmo.\-h}\item 
+clustering/\hyperlink{algoritmo_8cpp}{algoritmo.\-cpp}\end{DoxyCompactItemize}

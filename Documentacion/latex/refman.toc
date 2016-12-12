@@ -1,0 +1,150 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Indice de namespaces}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Lista de 'namespaces'}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}Indice jer\IeC {\'a}rquico}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Jerarqu\IeC {\'\i }a de la clase}{1}{subsection.2.1}
+\contentsline {section}{\numberline {3}\IeC {\'I}ndice de clases}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Lista de clases}{2}{subsection.3.1}
+\contentsline {section}{\numberline {4}Indice de archivos}{2}{section.4}
+\contentsline {subsection}{\numberline {4.1}Lista de archivos}{2}{subsection.4.1}
+\contentsline {section}{\numberline {5}Documentaci\IeC {\'o}n de namespaces}{2}{section.5}
+\contentsline {subsection}{\numberline {5.1}Referencia del Namespace Ui}{2}{subsection.5.1}
+\contentsline {section}{\numberline {6}Documentaci\IeC {\'o}n de las clases}{2}{section.6}
+\contentsline {subsection}{\numberline {6.1}Referencia de la Clase Algoritmo}{2}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Descripci\IeC {\'o}n detallada}{4}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Documentaci\IeC {\'o}n del constructor y destructor}{4}{subsubsection.6.1.2}
+\contentsline {paragraph}{\numberline {6.1.2.1}Algoritmo}{4}{paragraph.6.1.2.1}
+\contentsline {paragraph}{\numberline {6.1.2.2}Algoritmo}{4}{paragraph.6.1.2.2}
+\contentsline {paragraph}{\numberline {6.1.2.3}$\sim $\discretionary {-}{}{}Algoritmo}{5}{paragraph.6.1.2.3}
+\contentsline {subsubsection}{\numberline {6.1.3}Documentaci\IeC {\'o}n de las funciones miembro}{5}{subsubsection.6.1.3}
+\contentsline {paragraph}{\numberline {6.1.3.1}algoritmo}{5}{paragraph.6.1.3.1}
+\contentsline {paragraph}{\numberline {6.1.3.2}clustering\discretionary {-}{}{}Newman}{5}{paragraph.6.1.3.2}
+\contentsline {paragraph}{\numberline {6.1.3.3}construir\discretionary {-}{}{}Lista\discretionary {-}{}{}Adyacencia}{5}{paragraph.6.1.3.3}
+\contentsline {paragraph}{\numberline {6.1.3.4}get\discretionary {-}{}{}Cant\discretionary {-}{}{}Cambios}{5}{paragraph.6.1.3.4}
+\contentsline {paragraph}{\numberline {6.1.3.5}get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Final}{5}{paragraph.6.1.3.5}
+\contentsline {paragraph}{\numberline {6.1.3.6}get\discretionary {-}{}{}Modularidad}{5}{paragraph.6.1.3.6}
+\contentsline {paragraph}{\numberline {6.1.3.7}inicializar\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Inicial}{6}{paragraph.6.1.3.7}
+\contentsline {paragraph}{\numberline {6.1.3.8}inicializar\discretionary {-}{}{}Matriz\discretionary {-}{}{}X}{6}{paragraph.6.1.3.8}
+\contentsline {paragraph}{\numberline {6.1.3.9}inicializar\discretionary {-}{}{}Poblacion}{6}{paragraph.6.1.3.9}
+\contentsline {paragraph}{\numberline {6.1.3.10}reproducir}{6}{paragraph.6.1.3.10}
+\contentsline {paragraph}{\numberline {6.1.3.11}seleccionar}{6}{paragraph.6.1.3.11}
+\contentsline {subsubsection}{\numberline {6.1.4}Documentaci\IeC {\'o}n de los datos miembro}{6}{subsubsection.6.1.4}
+\contentsline {paragraph}{\numberline {6.1.4.1}aristas}{6}{paragraph.6.1.4.1}
+\contentsline {paragraph}{\numberline {6.1.4.2}cant\discretionary {-}{}{}Cambios}{6}{paragraph.6.1.4.2}
+\contentsline {paragraph}{\numberline {6.1.4.3}cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}{6}{paragraph.6.1.4.3}
+\contentsline {paragraph}{\numberline {6.1.4.4}configuracion\discretionary {-}{}{}Final}{7}{paragraph.6.1.4.4}
+\contentsline {paragraph}{\numberline {6.1.4.5}configuracion\discretionary {-}{}{}Inicial}{7}{paragraph.6.1.4.5}
+\contentsline {paragraph}{\numberline {6.1.4.6}generaciones}{7}{paragraph.6.1.4.6}
+\contentsline {paragraph}{\numberline {6.1.4.7}grafo}{7}{paragraph.6.1.4.7}
+\contentsline {paragraph}{\numberline {6.1.4.8}individuos}{7}{paragraph.6.1.4.8}
+\contentsline {paragraph}{\numberline {6.1.4.9}lista\discretionary {-}{}{}Adyacencia}{7}{paragraph.6.1.4.9}
+\contentsline {paragraph}{\numberline {6.1.4.10}mating\discretionary {-}{}{}Pool}{7}{paragraph.6.1.4.10}
+\contentsline {paragraph}{\numberline {6.1.4.11}matriz\discretionary {-}{}{}X\discretionary {-}{}{}Inicial}{7}{paragraph.6.1.4.11}
+\contentsline {paragraph}{\numberline {6.1.4.12}mejor\discretionary {-}{}{}Cromosoma}{7}{paragraph.6.1.4.12}
+\contentsline {paragraph}{\numberline {6.1.4.13}mejor\discretionary {-}{}{}Indice\discretionary {-}{}{}Poblacion}{7}{paragraph.6.1.4.13}
+\contentsline {paragraph}{\numberline {6.1.4.14}mejor\discretionary {-}{}{}Modularidad}{7}{paragraph.6.1.4.14}
+\contentsline {paragraph}{\numberline {6.1.4.15}membresia\discretionary {-}{}{}Inicial}{7}{paragraph.6.1.4.15}
+\contentsline {paragraph}{\numberline {6.1.4.16}modularidad\discretionary {-}{}{}Final}{7}{paragraph.6.1.4.16}
+\contentsline {paragraph}{\numberline {6.1.4.17}modularidad\discretionary {-}{}{}Inicial}{7}{paragraph.6.1.4.17}
+\contentsline {paragraph}{\numberline {6.1.4.18}mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}{7}{paragraph.6.1.4.18}
+\contentsline {paragraph}{\numberline {6.1.4.19}nodos}{8}{paragraph.6.1.4.19}
+\contentsline {paragraph}{\numberline {6.1.4.20}poblacion}{8}{paragraph.6.1.4.20}
+\contentsline {paragraph}{\numberline {6.1.4.21}porcentaje\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}{8}{paragraph.6.1.4.21}
+\contentsline {paragraph}{\numberline {6.1.4.22}tamanio\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}{8}{paragraph.6.1.4.22}
+\contentsline {paragraph}{\numberline {6.1.4.23}tam\discretionary {-}{}{}Mating\discretionary {-}{}{}Pool}{8}{paragraph.6.1.4.23}
+\contentsline {subsection}{\numberline {6.2}Referencia de la Clase Cromosoma}{8}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Descripci\IeC {\'o}n detallada}{9}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Documentaci\IeC {\'o}n del constructor y destructor}{9}{subsubsection.6.2.2}
+\contentsline {paragraph}{\numberline {6.2.2.1}Cromosoma}{9}{paragraph.6.2.2.1}
+\contentsline {paragraph}{\numberline {6.2.2.2}Cromosoma}{9}{paragraph.6.2.2.2}
+\contentsline {paragraph}{\numberline {6.2.2.3}$\sim $\discretionary {-}{}{}Cromosoma}{10}{paragraph.6.2.2.3}
+\contentsline {subsubsection}{\numberline {6.2.3}Documentaci\IeC {\'o}n de las funciones miembro}{10}{subsubsection.6.2.3}
+\contentsline {paragraph}{\numberline {6.2.3.1}calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Externas}{10}{paragraph.6.2.3.1}
+\contentsline {paragraph}{\numberline {6.2.3.2}calcular\discretionary {-}{}{}Fraccion\discretionary {-}{}{}Aristas\discretionary {-}{}{}Internas}{10}{paragraph.6.2.3.2}
+\contentsline {paragraph}{\numberline {6.2.3.3}calcular\discretionary {-}{}{}Modularidad}{10}{paragraph.6.2.3.3}
+\contentsline {paragraph}{\numberline {6.2.3.4}calcular\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}{11}{paragraph.6.2.3.4}
+\contentsline {paragraph}{\numberline {6.2.3.5}get\discretionary {-}{}{}Calculo\discretionary {-}{}{}Modularidad}{11}{paragraph.6.2.3.5}
+\contentsline {paragraph}{\numberline {6.2.3.6}get\discretionary {-}{}{}Cantidad\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}{11}{paragraph.6.2.3.6}
+\contentsline {paragraph}{\numberline {6.2.3.7}get\discretionary {-}{}{}Configuracion\discretionary {-}{}{}Clustering}{11}{paragraph.6.2.3.7}
+\contentsline {paragraph}{\numberline {6.2.3.8}get\discretionary {-}{}{}Modularidad}{11}{paragraph.6.2.3.8}
+\contentsline {paragraph}{\numberline {6.2.3.9}get\discretionary {-}{}{}Proporcion\discretionary {-}{}{}Clusters}{11}{paragraph.6.2.3.9}
+\contentsline {paragraph}{\numberline {6.2.3.10}mutar}{12}{paragraph.6.2.3.10}
+\contentsline {subsubsection}{\numberline {6.2.4}Documentaci\IeC {\'o}n de los datos miembro}{12}{subsubsection.6.2.4}
+\contentsline {paragraph}{\numberline {6.2.4.1}calculo\discretionary {-}{}{}Modularidad}{12}{paragraph.6.2.4.1}
+\contentsline {paragraph}{\numberline {6.2.4.2}cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Final}{12}{paragraph.6.2.4.2}
+\contentsline {paragraph}{\numberline {6.2.4.3}cant\discretionary {-}{}{}Clusters\discretionary {-}{}{}Inicial}{12}{paragraph.6.2.4.3}
+\contentsline {paragraph}{\numberline {6.2.4.4}configuracion}{12}{paragraph.6.2.4.4}
+\contentsline {paragraph}{\numberline {6.2.4.5}matriz\discretionary {-}{}{}X}{12}{paragraph.6.2.4.5}
+\contentsline {paragraph}{\numberline {6.2.4.6}modularidad}{12}{paragraph.6.2.4.6}
+\contentsline {paragraph}{\numberline {6.2.4.7}mutar\discretionary {-}{}{}Dos\discretionary {-}{}{}Bits}{12}{paragraph.6.2.4.7}
+\contentsline {paragraph}{\numberline {6.2.4.8}nodos}{12}{paragraph.6.2.4.8}
+\contentsline {paragraph}{\numberline {6.2.4.9}proporcion\discretionary {-}{}{}Clusters}{12}{paragraph.6.2.4.9}
+\contentsline {paragraph}{\numberline {6.2.4.10}tamanio\discretionary {-}{}{}Clusters}{12}{paragraph.6.2.4.10}
+\contentsline {subsection}{\numberline {6.3}Referencia de la Clase Lectora\discretionary {-}{}{}Archivo}{13}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Descripci\IeC {\'o}n detallada}{14}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Documentaci\IeC {\'o}n del constructor y destructor}{14}{subsubsection.6.3.2}
+\contentsline {paragraph}{\numberline {6.3.2.1}Lectora\discretionary {-}{}{}Archivo}{14}{paragraph.6.3.2.1}
+\contentsline {paragraph}{\numberline {6.3.2.2}$\sim $\discretionary {-}{}{}Lectora\discretionary {-}{}{}Archivo}{14}{paragraph.6.3.2.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Documentaci\IeC {\'o}n de las funciones miembro}{14}{subsubsection.6.3.3}
+\contentsline {paragraph}{\numberline {6.3.3.1}crear\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}{14}{paragraph.6.3.3.1}
+\contentsline {paragraph}{\numberline {6.3.3.2}get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Original}{14}{paragraph.6.3.3.2}
+\contentsline {paragraph}{\numberline {6.3.3.3}get\discretionary {-}{}{}Aristas\discretionary {-}{}{}Subgrafo}{14}{paragraph.6.3.3.3}
+\contentsline {paragraph}{\numberline {6.3.3.4}get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo}{14}{paragraph.6.3.3.4}
+\contentsline {paragraph}{\numberline {6.3.3.5}get\discretionary {-}{}{}Flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}{15}{paragraph.6.3.3.5}
+\contentsline {paragraph}{\numberline {6.3.3.6}get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Original}{15}{paragraph.6.3.3.6}
+\contentsline {paragraph}{\numberline {6.3.3.7}get\discretionary {-}{}{}Nodos\discretionary {-}{}{}Subgrafo}{15}{paragraph.6.3.3.7}
+\contentsline {paragraph}{\numberline {6.3.3.8}get\discretionary {-}{}{}Subgrafo}{15}{paragraph.6.3.3.8}
+\contentsline {paragraph}{\numberline {6.3.3.9}obtener\discretionary {-}{}{}Gran\discretionary {-}{}{}Componente}{15}{paragraph.6.3.3.9}
+\contentsline {paragraph}{\numberline {6.3.3.10}preprocesar}{16}{paragraph.6.3.3.10}
+\contentsline {subsubsection}{\numberline {6.3.4}Documentaci\IeC {\'o}n de los datos miembro}{17}{subsubsection.6.3.4}
+\contentsline {paragraph}{\numberline {6.3.4.1}aristas\discretionary {-}{}{}Original}{17}{paragraph.6.3.4.1}
+\contentsline {paragraph}{\numberline {6.3.4.2}aristas\discretionary {-}{}{}Subgrafo}{17}{paragraph.6.3.4.2}
+\contentsline {paragraph}{\numberline {6.3.4.3}flag\discretionary {-}{}{}Archivo}{17}{paragraph.6.3.4.3}
+\contentsline {paragraph}{\numberline {6.3.4.4}flag\discretionary {-}{}{}Archivo\discretionary {-}{}{}Solucion}{17}{paragraph.6.3.4.4}
+\contentsline {paragraph}{\numberline {6.3.4.5}flag\discretionary {-}{}{}Grafo}{17}{paragraph.6.3.4.5}
+\contentsline {paragraph}{\numberline {6.3.4.6}flag\discretionary {-}{}{}Subgrafo}{17}{paragraph.6.3.4.6}
+\contentsline {paragraph}{\numberline {6.3.4.7}grafo}{17}{paragraph.6.3.4.7}
+\contentsline {paragraph}{\numberline {6.3.4.8}nodos\discretionary {-}{}{}Original}{17}{paragraph.6.3.4.8}
+\contentsline {paragraph}{\numberline {6.3.4.9}nodos\discretionary {-}{}{}Subgrafo}{17}{paragraph.6.3.4.9}
+\contentsline {paragraph}{\numberline {6.3.4.10}nombre\discretionary {-}{}{}Archivo}{17}{paragraph.6.3.4.10}
+\contentsline {paragraph}{\numberline {6.3.4.11}subgrafo}{17}{paragraph.6.3.4.11}
+\contentsline {subsection}{\numberline {6.4}Referencia de la Clase Main\discretionary {-}{}{}Window}{18}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Descripci\IeC {\'o}n detallada}{19}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Documentaci\IeC {\'o}n del constructor y destructor}{19}{subsubsection.6.4.2}
+\contentsline {paragraph}{\numberline {6.4.2.1}Main\discretionary {-}{}{}Window}{19}{paragraph.6.4.2.1}
+\contentsline {paragraph}{\numberline {6.4.2.2}$\sim $\discretionary {-}{}{}Main\discretionary {-}{}{}Window}{19}{paragraph.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.3}Documentaci\IeC {\'o}n de las funciones miembro}{19}{subsubsection.6.4.3}
+\contentsline {paragraph}{\numberline {6.4.3.1}abrir\discretionary {-}{}{}Archivo}{19}{paragraph.6.4.3.1}
+\contentsline {paragraph}{\numberline {6.4.3.2}deshabilitar\discretionary {-}{}{}Algoritmo}{19}{paragraph.6.4.3.2}
+\contentsline {paragraph}{\numberline {6.4.3.3}destruir\discretionary {-}{}{}Datos}{20}{paragraph.6.4.3.3}
+\contentsline {paragraph}{\numberline {6.4.3.4}ejecutar}{20}{paragraph.6.4.3.4}
+\contentsline {paragraph}{\numberline {6.4.3.5}guardar\discretionary {-}{}{}Solucion}{20}{paragraph.6.4.3.5}
+\contentsline {paragraph}{\numberline {6.4.3.6}limpiar\discretionary {-}{}{}Datos}{20}{paragraph.6.4.3.6}
+\contentsline {subsubsection}{\numberline {6.4.4}Documentaci\IeC {\'o}n de los datos miembro}{20}{subsubsection.6.4.4}
+\contentsline {paragraph}{\numberline {6.4.4.1}algoritmo}{20}{paragraph.6.4.4.1}
+\contentsline {paragraph}{\numberline {6.4.4.2}flag\discretionary {-}{}{}Algoritmo}{20}{paragraph.6.4.4.2}
+\contentsline {paragraph}{\numberline {6.4.4.3}flag\discretionary {-}{}{}Lectora}{20}{paragraph.6.4.4.3}
+\contentsline {paragraph}{\numberline {6.4.4.4}lectora\discretionary {-}{}{}De\discretionary {-}{}{}Archivo}{20}{paragraph.6.4.4.4}
+\contentsline {paragraph}{\numberline {6.4.4.5}ui}{20}{paragraph.6.4.4.5}
+\contentsline {section}{\numberline {7}Documentaci\IeC {\'o}n de archivos}{20}{section.7}
+\contentsline {subsection}{\numberline {7.1}Referencia del Archivo clustering/algoritmo.cpp}{20}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Descripci\IeC {\'o}n detallada}{21}{subsubsection.7.1.1}
+\contentsline {subsection}{\numberline {7.2}Referencia del Archivo clustering/algoritmo.h}{21}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}Descripci\IeC {\'o}n detallada}{22}{subsubsection.7.2.1}
+\contentsline {subsection}{\numberline {7.3}Referencia del Archivo clustering/cromosoma.cpp}{23}{subsection.7.3}
+\contentsline {subsubsection}{\numberline {7.3.1}Descripci\IeC {\'o}n detallada}{23}{subsubsection.7.3.1}
+\contentsline {subsection}{\numberline {7.4}Referencia del Archivo clustering/cromosoma.h}{23}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Descripci\IeC {\'o}n detallada}{24}{subsubsection.7.4.1}
+\contentsline {subsection}{\numberline {7.5}Referencia del Archivo clustering/lectoraarchivo.cpp}{25}{subsection.7.5}
+\contentsline {subsubsection}{\numberline {7.5.1}Descripci\IeC {\'o}n detallada}{25}{subsubsection.7.5.1}
+\contentsline {subsection}{\numberline {7.6}Referencia del Archivo clustering/lectoraarchivo.h}{25}{subsection.7.6}
+\contentsline {subsubsection}{\numberline {7.6.1}Descripci\IeC {\'o}n detallada}{26}{subsubsection.7.6.1}
+\contentsline {subsection}{\numberline {7.7}Referencia del Archivo clustering/main.cpp}{27}{subsection.7.7}
+\contentsline {subsubsection}{\numberline {7.7.1}Descripci\IeC {\'o}n detallada}{27}{subsubsection.7.7.1}
+\contentsline {subsubsection}{\numberline {7.7.2}Documentaci\IeC {\'o}n de las funciones}{27}{subsubsection.7.7.2}
+\contentsline {paragraph}{\numberline {7.7.2.1}main}{27}{paragraph.7.7.2.1}
+\contentsline {subsection}{\numberline {7.8}Referencia del Archivo clustering/mainwindow.cpp}{28}{subsection.7.8}
+\contentsline {subsubsection}{\numberline {7.8.1}Descripci\IeC {\'o}n detallada}{28}{subsubsection.7.8.1}
+\contentsline {subsection}{\numberline {7.9}Referencia del Archivo clustering/mainwindow.h}{28}{subsection.7.9}
+\contentsline {subsubsection}{\numberline {7.9.1}Descripci\IeC {\'o}n detallada}{30}{subsubsection.7.9.1}
+\contentsline {part}{\IeC {\'I}ndice}{31}{section*.22}

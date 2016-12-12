@@ -1,0 +1,395 @@
+\hypertarget{class_lectora_archivo}{\subsection{Referencia de la Clase Lectora\-Archivo}
+\label{class_lectora_archivo}\index{Lectora\-Archivo@{Lectora\-Archivo}}
+}
+
+
+{\ttfamily \#include $<$lectoraarchivo.\-h$>$}
+
+\subsubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_lectora_archivo_aae77d0c44d180ec72244accb93d2f5ac}{Lectora\-Archivo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_aae77d0c44d180ec72244accb93d2f5ac}{Lectora\-Archivo\-::\-Lectora\-Archivo} Constructor. \end{DoxyCompactList}\item 
+\hyperlink{class_lectora_archivo_a84fdf7dce27b3e1f3a6b36c3d24c6150}{$\sim$\-Lectora\-Archivo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_a84fdf7dce27b3e1f3a6b36c3d24c6150}{Lectora\-Archivo\-::$\sim$\-Lectora\-Archivo} Destructor. \end{DoxyCompactList}\item 
+void \hyperlink{class_lectora_archivo_afcfe1ce17164087c3dac3939e1183391}{preprocesar} (string \hyperlink{class_lectora_archivo_ac3cddfb1afc543a82eb72efbc80b501f}{nombre\-Archivo})
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_afcfe1ce17164087c3dac3939e1183391}{Lectora\-Archivo\-::preprocesar}. \end{DoxyCompactList}\item 
+igraph\-\_\-t \hyperlink{class_lectora_archivo_ad6314a01d7360d2304c715e8f535d667}{get\-Subgrafo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_ad6314a01d7360d2304c715e8f535d667}{Lectora\-Archivo\-::get\-Subgrafo} Retorna igraph\-\_\-t una copia exacta del subgrafo, que corresponde al componente conexo m\'{a}s grande del grafo original ingresado. \end{DoxyCompactList}\item 
+int \hyperlink{class_lectora_archivo_a7ab5551369ff9750f3273ded4c71fa5d}{get\-Nodos\-Original} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_a7ab5551369ff9750f3273ded4c71fa5d}{Lectora\-Archivo\-::get\-Nodos\-Original} Retorna la cantidad de nodos del grafo original. \end{DoxyCompactList}\item 
+int \hyperlink{class_lectora_archivo_ac9717ec799f975e480c8c37a33f06b09}{get\-Nodos\-Subgrafo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_ac9717ec799f975e480c8c37a33f06b09}{Lectora\-Archivo\-::get\-Nodos\-Subgrafo} Retorna la cantidad de nodos del subgrafo obtenido(gran componente). \end{DoxyCompactList}\item 
+int \hyperlink{class_lectora_archivo_ac7b9cf410afa1eb5ea0c068ebfaa26f5}{get\-Aristas\-Original} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_ac7b9cf410afa1eb5ea0c068ebfaa26f5}{Lectora\-Archivo\-::get\-Aristas\-Original} Retorna la cantidad de aristas del grafo original. \end{DoxyCompactList}\item 
+int \hyperlink{class_lectora_archivo_a68a43abd1d057194c134d937a97d30e7}{get\-Aristas\-Subgrafo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_a68a43abd1d057194c134d937a97d30e7}{Lectora\-Archivo\-::get\-Aristas\-Subgrafo} Retorna la cantidad de aristas del subgrafo obtenido(gran componente). \end{DoxyCompactList}\item 
+bool \hyperlink{class_lectora_archivo_aa0688f5f52c905598e4dc152e4553e51}{get\-Flag\-Archivo} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_aa0688f5f52c905598e4dc152e4553e51}{Lectora\-Archivo\-::get\-Flag\-Archivo} Retorna el valor de flag\-Archivo. si es F\-A\-L\-S\-E existieron errores de lectura de archivo. Si es T\-R\-U\-E no hubo errores de lectura de archivo de grafo. \end{DoxyCompactList}\item 
+bool \hyperlink{class_lectora_archivo_aa59f0d1c56b4d073e07ec495439738f6}{get\-Flag\-Archivo\-Solucion} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_aa59f0d1c56b4d073e07ec495439738f6}{Lectora\-Archivo\-::get\-Flag\-Archivo\-Solucion} Retorna el valor de flag\-Archivo\-Solucion. si es F\-A\-L\-S\-E existieron errores en la creaci\'{o}n del archivo. Si es T\-R\-U\-E no hubo errores de creaci\'{o}n del archivo de soluci\'{o}n. \end{DoxyCompactList}\item 
+void \hyperlink{class_lectora_archivo_a9ec3aa9804dd0469a695b371a4eccfa1}{crear\-Archivo\-Solucion} (string \hyperlink{class_lectora_archivo_ac3cddfb1afc543a82eb72efbc80b501f}{nombre\-Archivo}, igraph\-\_\-t \&\hyperlink{class_lectora_archivo_affd372a364e76c94aa70740f4fa3b744}{grafo}, vector$<$ unordered\-\_\-set$<$ int $>$ $>$ configuracion\-Final)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_a9ec3aa9804dd0469a695b371a4eccfa1}{Lectora\-Archivo\-::crear\-Archivo\-Solucion} Crea el archivo de soluci\'{o}n en formato {\itshape graphml} que contiene toda la configuraci\'{o}n de {\itshape clustering} encontrada en el algoritmo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Métodos privados}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_lectora_archivo_a627952a19595643d18aa43820666ac87}{obtener\-Gran\-Componente} (const igraph\-\_\-t $\ast$\hyperlink{class_lectora_archivo_affd372a364e76c94aa70740f4fa3b744}{grafo}, igraph\-\_\-t $\ast$\hyperlink{class_lectora_archivo_ab04363a5dd47b71aac4922912bf0c9c1}{subgrafo})
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_lectora_archivo_a627952a19595643d18aa43820666ac87}{Lectora\-Archivo\-::obtener\-Gran\-Componente}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsubsection*{Atributos privados}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_lectora_archivo_ac3cddfb1afc543a82eb72efbc80b501f}{nombre\-Archivo}
+\item 
+int \hyperlink{class_lectora_archivo_a2a7a807314562f857808b015685335ba}{nodos\-Original}
+\item 
+int \hyperlink{class_lectora_archivo_a2eaf25b97a022e0247cefc7109d0e522}{nodos\-Subgrafo}
+\item 
+int \hyperlink{class_lectora_archivo_a466143a1c460bd6ec8cc0f8938c4342d}{aristas\-Original}
+\item 
+int \hyperlink{class_lectora_archivo_aa72a45703b6dc1c492e2dccd27ba7645}{aristas\-Subgrafo}
+\item 
+bool \hyperlink{class_lectora_archivo_a7843bade2641571159e4b92a48ded4af}{flag\-Archivo}
+\item 
+bool \hyperlink{class_lectora_archivo_aa0fd4f25ef55ad4e1b0a1a9c0bc6522d}{flag\-Archivo\-Solucion}
+\item 
+bool \hyperlink{class_lectora_archivo_a2d3e57219f5e60ac8b65b14b63ce9ec3}{flag\-Grafo}
+\item 
+bool \hyperlink{class_lectora_archivo_a6480fdfc671d20dc5f609ac04371e368}{flag\-Subgrafo}
+\item 
+igraph\-\_\-t \hyperlink{class_lectora_archivo_ab04363a5dd47b71aac4922912bf0c9c1}{subgrafo}
+\item 
+igraph\-\_\-t \hyperlink{class_lectora_archivo_affd372a364e76c94aa70740f4fa3b744}{grafo}
+\end{DoxyCompactItemize}
+
+
+\subsubsection{Descripción detallada}
+
+
+Definición en la línea 19 del archivo lectoraarchivo.\-h.
+
+
+
+\subsubsection{Documentación del constructor y destructor}
+\hypertarget{class_lectora_archivo_aae77d0c44d180ec72244accb93d2f5ac}{\index{Lectora\-Archivo@{Lectora\-Archivo}!Lectora\-Archivo@{Lectora\-Archivo}}
+\index{Lectora\-Archivo@{Lectora\-Archivo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{Lectora\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}Lectora\-Archivo\-::\-Lectora\-Archivo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_aae77d0c44d180ec72244accb93d2f5ac}
+
+
+\hyperlink{class_lectora_archivo_aae77d0c44d180ec72244accb93d2f5ac}{Lectora\-Archivo\-::\-Lectora\-Archivo} Constructor. 
+
+
+
+Definición en la línea 20 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_a84fdf7dce27b3e1f3a6b36c3d24c6150}{\index{Lectora\-Archivo@{Lectora\-Archivo}!$\sim$\-Lectora\-Archivo@{$\sim$\-Lectora\-Archivo}}
+\index{$\sim$\-Lectora\-Archivo@{$\sim$\-Lectora\-Archivo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{$\sim$\-Lectora\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}Lectora\-Archivo\-::$\sim$\-Lectora\-Archivo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_a84fdf7dce27b3e1f3a6b36c3d24c6150}
+
+
+\hyperlink{class_lectora_archivo_a84fdf7dce27b3e1f3a6b36c3d24c6150}{Lectora\-Archivo\-::$\sim$\-Lectora\-Archivo} Destructor. 
+
+
+
+Definición en la línea 33 del archivo lectoraarchivo.\-cpp.
+
+
+
+\subsubsection{Documentación de las funciones miembro}
+\hypertarget{class_lectora_archivo_a9ec3aa9804dd0469a695b371a4eccfa1}{\index{Lectora\-Archivo@{Lectora\-Archivo}!crear\-Archivo\-Solucion@{crear\-Archivo\-Solucion}}
+\index{crear\-Archivo\-Solucion@{crear\-Archivo\-Solucion}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{crear\-Archivo\-Solucion}]{\setlength{\rightskip}{0pt plus 5cm}void Lectora\-Archivo\-::crear\-Archivo\-Solucion (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre\-Archivo, }
+\item[{igraph\-\_\-t \&}]{grafo, }
+\item[{vector$<$ unordered\-\_\-set$<$ int $>$ $>$}]{configuracion\-Final}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_a9ec3aa9804dd0469a695b371a4eccfa1}
+
+
+\hyperlink{class_lectora_archivo_a9ec3aa9804dd0469a695b371a4eccfa1}{Lectora\-Archivo\-::crear\-Archivo\-Solucion} Crea el archivo de soluci\'{o}n en formato {\itshape graphml} que contiene toda la configuraci\'{o}n de {\itshape clustering} encontrada en el algoritmo. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em nombre\-Archivo} & string que contiene el nombre del archivo con el que se guarda. \\
+\hline
+{\em grafo} & igraph\-\_\-t\& que contiene el grafo que ser\'{a} guardado en el archivo. \\
+\hline
+{\em configuracion\-Final} & vector$<$unordered\-\_\-set$<$int$>$ $>$ que contiene la configuraci\'{o}n final de {\itshape clustering} \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 322 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_ac7b9cf410afa1eb5ea0c068ebfaa26f5}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Aristas\-Original@{get\-Aristas\-Original}}
+\index{get\-Aristas\-Original@{get\-Aristas\-Original}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Aristas\-Original}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::get\-Aristas\-Original (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_ac7b9cf410afa1eb5ea0c068ebfaa26f5}
+
+
+\hyperlink{class_lectora_archivo_ac7b9cf410afa1eb5ea0c068ebfaa26f5}{Lectora\-Archivo\-::get\-Aristas\-Original} Retorna la cantidad de aristas del grafo original. 
+
+\begin{DoxyReturn}{Devuelve}
+int aristas del grafo original. 
+\end{DoxyReturn}
+
+
+Definición en la línea 273 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_a68a43abd1d057194c134d937a97d30e7}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Aristas\-Subgrafo@{get\-Aristas\-Subgrafo}}
+\index{get\-Aristas\-Subgrafo@{get\-Aristas\-Subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Aristas\-Subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::get\-Aristas\-Subgrafo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_a68a43abd1d057194c134d937a97d30e7}
+
+
+\hyperlink{class_lectora_archivo_a68a43abd1d057194c134d937a97d30e7}{Lectora\-Archivo\-::get\-Aristas\-Subgrafo} Retorna la cantidad de aristas del subgrafo obtenido(gran componente). 
+
+\begin{DoxyReturn}{Devuelve}
+int aristas del subgrafo. 
+\end{DoxyReturn}
+
+
+Definición en la línea 284 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_aa0688f5f52c905598e4dc152e4553e51}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Flag\-Archivo@{get\-Flag\-Archivo}}
+\index{get\-Flag\-Archivo@{get\-Flag\-Archivo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Flag\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}bool Lectora\-Archivo\-::get\-Flag\-Archivo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_aa0688f5f52c905598e4dc152e4553e51}
+
+
+\hyperlink{class_lectora_archivo_aa0688f5f52c905598e4dc152e4553e51}{Lectora\-Archivo\-::get\-Flag\-Archivo} Retorna el valor de flag\-Archivo. si es F\-A\-L\-S\-E existieron errores de lectura de archivo. Si es T\-R\-U\-E no hubo errores de lectura de archivo de grafo. 
+
+\begin{DoxyReturn}{Devuelve}
+bool flag\-Archivo. 
+\end{DoxyReturn}
+
+
+Definición en la línea 296 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_aa59f0d1c56b4d073e07ec495439738f6}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Flag\-Archivo\-Solucion@{get\-Flag\-Archivo\-Solucion}}
+\index{get\-Flag\-Archivo\-Solucion@{get\-Flag\-Archivo\-Solucion}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Flag\-Archivo\-Solucion}]{\setlength{\rightskip}{0pt plus 5cm}bool Lectora\-Archivo\-::get\-Flag\-Archivo\-Solucion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_aa59f0d1c56b4d073e07ec495439738f6}
+
+
+\hyperlink{class_lectora_archivo_aa59f0d1c56b4d073e07ec495439738f6}{Lectora\-Archivo\-::get\-Flag\-Archivo\-Solucion} Retorna el valor de flag\-Archivo\-Solucion. si es F\-A\-L\-S\-E existieron errores en la creaci\'{o}n del archivo. Si es T\-R\-U\-E no hubo errores de creaci\'{o}n del archivo de soluci\'{o}n. 
+
+\begin{DoxyReturn}{Devuelve}
+bool flag\-Archivo\-Solucion. 
+\end{DoxyReturn}
+
+
+Definición en la línea 308 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_a7ab5551369ff9750f3273ded4c71fa5d}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Nodos\-Original@{get\-Nodos\-Original}}
+\index{get\-Nodos\-Original@{get\-Nodos\-Original}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Nodos\-Original}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::get\-Nodos\-Original (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_a7ab5551369ff9750f3273ded4c71fa5d}
+
+
+\hyperlink{class_lectora_archivo_a7ab5551369ff9750f3273ded4c71fa5d}{Lectora\-Archivo\-::get\-Nodos\-Original} Retorna la cantidad de nodos del grafo original. 
+
+\begin{DoxyReturn}{Devuelve}
+int nodos del grafo original 
+\end{DoxyReturn}
+
+
+Definición en la línea 251 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_ac9717ec799f975e480c8c37a33f06b09}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Nodos\-Subgrafo@{get\-Nodos\-Subgrafo}}
+\index{get\-Nodos\-Subgrafo@{get\-Nodos\-Subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Nodos\-Subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::get\-Nodos\-Subgrafo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_ac9717ec799f975e480c8c37a33f06b09}
+
+
+\hyperlink{class_lectora_archivo_ac9717ec799f975e480c8c37a33f06b09}{Lectora\-Archivo\-::get\-Nodos\-Subgrafo} Retorna la cantidad de nodos del subgrafo obtenido(gran componente). 
+
+\begin{DoxyReturn}{Devuelve}
+int nodos del subgrafo. 
+\end{DoxyReturn}
+
+
+Definición en la línea 262 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_ad6314a01d7360d2304c715e8f535d667}{\index{Lectora\-Archivo@{Lectora\-Archivo}!get\-Subgrafo@{get\-Subgrafo}}
+\index{get\-Subgrafo@{get\-Subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{get\-Subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-t Lectora\-Archivo\-::get\-Subgrafo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_ad6314a01d7360d2304c715e8f535d667}
+
+
+\hyperlink{class_lectora_archivo_ad6314a01d7360d2304c715e8f535d667}{Lectora\-Archivo\-::get\-Subgrafo} Retorna igraph\-\_\-t una copia exacta del subgrafo, que corresponde al componente conexo m\'{a}s grande del grafo original ingresado. 
+
+\begin{DoxyReturn}{Devuelve}
+subgrafo obtenido en el proceso. 
+\end{DoxyReturn}
+
+
+Definición en la línea 238 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_a627952a19595643d18aa43820666ac87}{\index{Lectora\-Archivo@{Lectora\-Archivo}!obtener\-Gran\-Componente@{obtener\-Gran\-Componente}}
+\index{obtener\-Gran\-Componente@{obtener\-Gran\-Componente}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{obtener\-Gran\-Componente}]{\setlength{\rightskip}{0pt plus 5cm}void Lectora\-Archivo\-::obtener\-Gran\-Componente (
+\begin{DoxyParamCaption}
+\item[{const igraph\-\_\-t $\ast$}]{grafo, }
+\item[{igraph\-\_\-t $\ast$}]{subgrafo}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a627952a19595643d18aa43820666ac87}
+
+
+\hyperlink{class_lectora_archivo_a627952a19595643d18aa43820666ac87}{Lectora\-Archivo\-::obtener\-Gran\-Componente}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em grafo} & Puntero al grafo original. \\
+\hline
+{\em subgrafo} & Puntero al grafo que se crear\'{a} una vez se obtenga el gran componente del grafo original. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Nota}
+Si el grafo fue cargado con edgelist los ids de los vertices corresponden a los n\'{u}meros que hab\'{\i} en el archivo. Por el contrario si fue cargado con graphml los ids corresponder\'{a}n a la configuraci\'{o}n del archivo graphml. 
+\end{DoxyNote}
+
+
+Definición en la línea 145 del archivo lectoraarchivo.\-cpp.
+
+\hypertarget{class_lectora_archivo_afcfe1ce17164087c3dac3939e1183391}{\index{Lectora\-Archivo@{Lectora\-Archivo}!preprocesar@{preprocesar}}
+\index{preprocesar@{preprocesar}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{preprocesar}]{\setlength{\rightskip}{0pt plus 5cm}void Lectora\-Archivo\-::preprocesar (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre\-Archivo}
+\end{DoxyParamCaption}
+)}}\label{class_lectora_archivo_afcfe1ce17164087c3dac3939e1183391}
+
+
+\hyperlink{class_lectora_archivo_afcfe1ce17164087c3dac3939e1183391}{Lectora\-Archivo\-::preprocesar}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em nombre\-Archivo} & string con la ruta del archivo que contiene el grafo. Lee el archivo, extrae el grafo, si el grafo no es conexo obtiene el gran componente de \'{e}ste. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Nota}
+Si el archivo no existe, o es sint\'{a}cticamente incorrecto el procesamiento no continua. 
+\end{DoxyNote}
+\begin{DoxyNote}{Nota}
+Si se esta trabajando con un grafo cargado con un formato de edgelist, se debe ajustar los atributos de los vertices para que estos no pierdan su id de identificaci\'{o}n.
+\end{DoxyNote}
+
+
+Definición en la línea 55 del archivo lectoraarchivo.\-cpp.
+
+
+
+\subsubsection{Documentación de los datos miembro}
+\hypertarget{class_lectora_archivo_a466143a1c460bd6ec8cc0f8938c4342d}{\index{Lectora\-Archivo@{Lectora\-Archivo}!aristas\-Original@{aristas\-Original}}
+\index{aristas\-Original@{aristas\-Original}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{aristas\-Original}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::aristas\-Original\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a466143a1c460bd6ec8cc0f8938c4342d}
+
+
+Definición en la línea 26 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_aa72a45703b6dc1c492e2dccd27ba7645}{\index{Lectora\-Archivo@{Lectora\-Archivo}!aristas\-Subgrafo@{aristas\-Subgrafo}}
+\index{aristas\-Subgrafo@{aristas\-Subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{aristas\-Subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::aristas\-Subgrafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_aa72a45703b6dc1c492e2dccd27ba7645}
+
+
+Definición en la línea 27 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_a7843bade2641571159e4b92a48ded4af}{\index{Lectora\-Archivo@{Lectora\-Archivo}!flag\-Archivo@{flag\-Archivo}}
+\index{flag\-Archivo@{flag\-Archivo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{flag\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}bool Lectora\-Archivo\-::flag\-Archivo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a7843bade2641571159e4b92a48ded4af}
+
+
+Definición en la línea 28 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_aa0fd4f25ef55ad4e1b0a1a9c0bc6522d}{\index{Lectora\-Archivo@{Lectora\-Archivo}!flag\-Archivo\-Solucion@{flag\-Archivo\-Solucion}}
+\index{flag\-Archivo\-Solucion@{flag\-Archivo\-Solucion}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{flag\-Archivo\-Solucion}]{\setlength{\rightskip}{0pt plus 5cm}bool Lectora\-Archivo\-::flag\-Archivo\-Solucion\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_aa0fd4f25ef55ad4e1b0a1a9c0bc6522d}
+
+
+Definición en la línea 29 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_a2d3e57219f5e60ac8b65b14b63ce9ec3}{\index{Lectora\-Archivo@{Lectora\-Archivo}!flag\-Grafo@{flag\-Grafo}}
+\index{flag\-Grafo@{flag\-Grafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{flag\-Grafo}]{\setlength{\rightskip}{0pt plus 5cm}bool Lectora\-Archivo\-::flag\-Grafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a2d3e57219f5e60ac8b65b14b63ce9ec3}
+
+
+Definición en la línea 30 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_a6480fdfc671d20dc5f609ac04371e368}{\index{Lectora\-Archivo@{Lectora\-Archivo}!flag\-Subgrafo@{flag\-Subgrafo}}
+\index{flag\-Subgrafo@{flag\-Subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{flag\-Subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}bool Lectora\-Archivo\-::flag\-Subgrafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a6480fdfc671d20dc5f609ac04371e368}
+
+
+Definición en la línea 31 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_affd372a364e76c94aa70740f4fa3b744}{\index{Lectora\-Archivo@{Lectora\-Archivo}!grafo@{grafo}}
+\index{grafo@{grafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{grafo}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-t Lectora\-Archivo\-::grafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_affd372a364e76c94aa70740f4fa3b744}
+
+
+Definición en la línea 34 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_a2a7a807314562f857808b015685335ba}{\index{Lectora\-Archivo@{Lectora\-Archivo}!nodos\-Original@{nodos\-Original}}
+\index{nodos\-Original@{nodos\-Original}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{nodos\-Original}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::nodos\-Original\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a2a7a807314562f857808b015685335ba}
+
+
+Definición en la línea 24 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_a2eaf25b97a022e0247cefc7109d0e522}{\index{Lectora\-Archivo@{Lectora\-Archivo}!nodos\-Subgrafo@{nodos\-Subgrafo}}
+\index{nodos\-Subgrafo@{nodos\-Subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{nodos\-Subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}int Lectora\-Archivo\-::nodos\-Subgrafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_a2eaf25b97a022e0247cefc7109d0e522}
+
+
+Definición en la línea 25 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_ac3cddfb1afc543a82eb72efbc80b501f}{\index{Lectora\-Archivo@{Lectora\-Archivo}!nombre\-Archivo@{nombre\-Archivo}}
+\index{nombre\-Archivo@{nombre\-Archivo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{nombre\-Archivo}]{\setlength{\rightskip}{0pt plus 5cm}string Lectora\-Archivo\-::nombre\-Archivo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_ac3cddfb1afc543a82eb72efbc80b501f}
+
+
+Definición en la línea 22 del archivo lectoraarchivo.\-h.
+
+\hypertarget{class_lectora_archivo_ab04363a5dd47b71aac4922912bf0c9c1}{\index{Lectora\-Archivo@{Lectora\-Archivo}!subgrafo@{subgrafo}}
+\index{subgrafo@{subgrafo}!LectoraArchivo@{Lectora\-Archivo}}
+\paragraph[{subgrafo}]{\setlength{\rightskip}{0pt plus 5cm}igraph\-\_\-t Lectora\-Archivo\-::subgrafo\hspace{0.3cm}{\ttfamily [private]}}}\label{class_lectora_archivo_ab04363a5dd47b71aac4922912bf0c9c1}
+
+
+Definición en la línea 33 del archivo lectoraarchivo.\-h.
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\-:\begin{DoxyCompactItemize}
+\item 
+clustering/\hyperlink{lectoraarchivo_8h}{lectoraarchivo.\-h}\item 
+clustering/\hyperlink{lectoraarchivo_8cpp}{lectoraarchivo.\-cpp}\end{DoxyCompactItemize}
